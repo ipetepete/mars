@@ -22,7 +22,7 @@ from django.contrib.staticfiles.storage import staticfiles_storage
 
 from rest_framework import routers, serializers, viewsets
 from django.contrib.auth.models import User # ,Group
-from provisional.views import FitsnameViewSet
+#from provisional.views import FitsnameViewSet
 from rest_framework_swagger.views import get_swagger_view
 
 #from schedule.views import ScheduleViewSet
@@ -71,14 +71,14 @@ urlpatterns = [
         name="favicon"
     ),
     url(r'^', include('water.urls', namespace='water')),
-    url(r'^home', include('water.urls', namespace='water')),
+    #url(r'^home', include('water.urls', namespace='water')),
     #url(r'^favicon.ico$', 'django.views.static.server',  {'document_root': '/var/mars/Mars_icon.jpg'}),
 
     url(r'^users/', include('users.urls', namespace='users')),
-    url(r'^siap/', include('siap.urls', namespace='siap')),
+    #!url(r'^siap/', include('siap.urls', namespace='siap')),
     url(r'^dal/', include('dal.urls', namespace='dal')),
     url(r'^schedule/', include('schedule.urls', namespace='schedule')),
-    url(r'^provisional/', include('provisional.urls', namespace='provisional')),
+    #!url(r'^provisional/', include('provisional.urls', namespace='provisional')),
     url(r'^tada/', include('tada.urls', namespace='tada')),
     url(r'^audit/', include('audit.urls', namespace='audit')),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

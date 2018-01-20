@@ -61,13 +61,13 @@ INSTALLED_APPS = (
     'django.contrib.postgres',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'siap',
+    #'siap',
     'docs',
     'schedule',
-    'provisional',
+    #'provisional',
     'water',
     'tada',
-    'lsa',  # Legacy Science Archive (pre-NATICA)
+    #'lsa',  # Legacy Science Archive (pre-NATICA)
     'natica', # replace LSA
     'portal',
     'rest_framework',

@@ -1,9 +1,0 @@
-{% extends "siap/base.html" %}
-{% load render_table from django_tables2 %}
-
-{% block content %}
-  
-  <h2>{{title|title}} (records: {{results_count}}/{{total_count}}, limit:  {{limit_count}}) </h2>
-  {% render_table query_results_table %}
-
-{% endblock %}

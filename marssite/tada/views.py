@@ -1,11 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.core import serializers
-from .models import FilePrefix
-from .models import ObsType, ProcType, ProdType
+#from .models import FilePrefix
+#from .models import ObsType, ProcType, ProdType
+from natica.models import Site,Telescope,Instrument,TacInstrumentAlias
+from natica.models import FilePrefix
+from natica.models import ObsType, ProcType, ProdType
+
 from .models import RawKeywords, FilenameKeywords
 from .models import IngestKeywords, IngestRecommendedKeywords
-from .models import SupportKeywords, FloatKeywords, HdrFunc, TacInstrumentAlias
+from .models import SupportKeywords, FloatKeywords, HdrFunc
 from .models import ErrorCode
 
 # stilut=`curl 'http://localhost:8000/tada/'`

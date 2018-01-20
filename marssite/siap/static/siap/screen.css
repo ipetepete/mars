@@ -1,8 +1,0 @@
-table.siap { border-collapse: collapse; }
-table.siap  td {
-    border: 1px solid black;
-}
-#table.siap tr:hover {font-weight: bold; color: DarkGoldenRod;}
-table.siap tr:hover {background-color: LightGray;}
-table.siap tr.day-odd {background-color: LightGray}
-table.siap {table-layout: fixed; }

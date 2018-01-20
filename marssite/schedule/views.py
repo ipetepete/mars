@@ -10,9 +10,7 @@ from django.db.models import Q
 
 from .forms import SlotSetForm, BatchSlotSetForm
 from .models import Slot, EmptySlot, Proposal, DefaultPropid
-from natica.models import Telescope,Instrument
-from tada.models import TacInstrumentAlias
-from tada.models import FilePrefix
+from natica.models import Telescope,Instrument,TacInstrumentAlias,FilePrefix
 from .upload import handle_uploaded_file
 from rest_framework import viewsets, generics
 from rest_framework.views import APIView

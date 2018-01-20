@@ -5,7 +5,7 @@
 SCRIPT=$(readlink -e $0)     #Absolute path to this script
 SCRIPTDIR=$(dirname $SCRIPT) #Absolute path this script is in
 
-source $SCRIPTDIR/venv/bin/activate
+source /opt/mars/venv/bin/activate
 
 cd $SCRIPTDIR/marssite
 
@@ -26,8 +26,9 @@ cd $SCRIPTDIR/marssite
 #!./manage.py test --parallel 4 schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
 
    
-./manage.py test --settings=marssite.test_settings dal.tests
-./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
+#@@@@ ./manage.py test --settings=marssite.test_settings dal.tests
+#./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
+./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests  audit.tests_production audit.tests_operations
 
 #./manage.py test schedule.tests_production
 #./manage.py test schedule.tests_operations
