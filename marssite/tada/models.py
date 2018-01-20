@@ -2,48 +2,10 @@ from django.db import models
 from django.contrib.postgres.fields import ArrayField
 from natica.models import Site,Telescope,Instrument
 
-class TacInstrumentAlias(models.Model):
-    tac = models.CharField(max_length=20, primary_key=True,
-                           help_text='Name used by TAC Schedule')
-    #!hdr = models.CharField(max_length=20, 
-    #!                       help_text='Name used in FITS header')
-    hdr = models.ForeignKey(Instrument,
-                            help_text='Name used in FITS header')
-
 #!class InstrumentAlias(models.Model):
 #!    reason = models.CharField(max_length=80)
 #!    #!instrument = models.ForeignKey(Instrument
 
-# Replaces tada/file_naming.py:stiLUT{}
-class FilePrefix(models.Model):
-    """Archive filename prefix coded from Site, Telescope, Instrument"""
-
-    site = models.ForeignKey(Site)
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)
-    prefix = models.CharField(max_length=10,
-                              help_text='Prefix for Archive Filename')
-    comment = models.CharField(max_length=80, blank=True, default='')
-
-class ObsType(models.Model):
-    """OBServation type: used archive filename prefix"""
-    name = models.CharField(max_length=30, unique=True)
-    code = models.CharField(max_length=1, unique=False)
-    comment = models.CharField(max_length=80, blank=True, default='')
-
-class ProcType(models.Model):
-    """PROCessing type: used archive filename prefix"""
-    name = models.CharField(max_length=30, unique=True)
-    code = models.CharField(max_length=1, unique=False)
-    comment = models.CharField(max_length=80, blank=True, default='')
-    def __str__(self): return self.name
-    
-class ProdType(models.Model):
-    """PRODuct type: used archive filename prefix"""
-    name = models.CharField(max_length=30, unique=True)
-    code = models.CharField(max_length=1, unique=False)
-    comment = models.CharField(max_length=80, blank=True, default='')
-    def __str__(self): return self.name
 ###########
 
 class RawKeywords(models.Model):

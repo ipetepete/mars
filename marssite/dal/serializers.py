@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from tada.models import FilePrefix
+from natica.models import FilePrefix
 
 class FilePrefixSerializer(serializers.ModelSerializer):
     telescope = serializers.StringRelatedField(many=False)

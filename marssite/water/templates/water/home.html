@@ -314,17 +314,6 @@
 	tags, template filters, models, views, bookmarklets
       </td>
     </tr>
-    <tr class="dev">
-      <th><a href="{% url 'siap:tada' %}">/siap/tada/</a></th>
-      <td>List of all Archive files containing substring "TADA". Get
-      different renderings based on requested content type. Examples:
-      <pre>
-  curl -H "Content-type: application/json" 'http://localhost:8000/siap/tada/'
-  curl -H "Content-type: text/csv" 'http://localhost:8000/siap/tada/' >x.csv
-      </pre>
-      </td>
-    </tr>
-    
 
     
     <!-- ################################################################### -->
@@ -334,93 +323,6 @@
     <tr class="test">
       <th><a href="{% url 'audit:get_recent' %}">{% url 'audit:get_recent' %}</a></th>
       <td>Return CSV file of audit records updated in the last day or so.</td>
-    </tr>
-    <tr  class="test">
-      <th><a href="{% url 'siap:query_by_url' %}{% querystring 'min:date_obs'='05-28-2016' 'reference'='c13a' %}">
-	  {% url 'siap:query_by_url' %}{% querystring 'min:date_obs'='05-28-2016' 'reference'='c13a' %}
-      </a></th>
-      <td>
-	Query SIAP using URL query string. If "reference" column,
-	it is matched as a substring.  All others use exact match.
-	<br />
-	CSV and JSON return values are possible using CURL.  Examples:
-	<br />
-	<pre>
-  curl -H "Content-Type: text/csv" 'http://localhost:8000/siap/query/?limit=10'
-  curl -H "Content-Type: text/csv" \
-     'http://localhost:8000/siap/query/?limit=10&columns=path'
-  curl -H "Content-Type: text/csv" \
-     'http://localhost:8000/siap/query/?limit=10&columns=reference,dtpropid'
-
-  curl -H "Content-Type: application/json" \
-    'http://localhost:8000/siap/query/?limit=10&date_obs=02-28-2006&reference=k21i' \
-    > foo.json
-	</pre>
-      </td>
-    </tr>
-    <tr class="test">
-      <th>{% url 'siap:query_by_sql' %}</th>
-      <td>Query voi.siap using SQL string.
-        SQL must be of format:
-        <i>SELECT {field}[,{field}...] FROM voi.siap {something};</i>
-	    <br />
-	    <br />
-        For <b>SQL in file</b> use something like: <br />
-	    <i>curl --data-binary @sql/files20.sql http://localhost:8000/siap/squery</i>
-	    <br />
-	    <br />For <b>SQL in string</b> use something like: <br />
-	    <i>curl --data-binary "select reference,dtacqnam from voi.siap limit 5" http://localhost:8000/siap/squery </i>
-      </td>
-    </tr>
-    <!-- ##### Provisional ##### -->
-    <tr class="test">
-      <th><a href="{% url 'provisional:index' %}">/provisional/</a></th>
-
-      <td>List of all files stored in the Archive on a provisional basis.
-        These can be deleted as a batch or individiually through
-        web-services.</td>
-    </tr>
-    <tr class="test">
-      <th>
-	<a href="{% url 'provisional:stuff' %}">
-	  {% url 'provisional:stuff' %}
-	</a>
-      </th>
-      <td>Insert all files matching "TADA like" reference file into
-        provisional list.</td>
-    </tr>
-    <tr  class="test">
-      <th>/provisional/delete/REF_FILENAME/</th>
-      <td><strong>Delete a file from Archive</strong> and the
-        provisional list.</td>
-    </tr>
-    <tr class="test">
-      <th>
-	<a href="{% url 'provisional:rollback' %}">
-	  {% url 'provisional:rollback' %}
-	</a>
-      </th>
-      <td>
-	<strong>Delete all files that are in provisional list from Archive
-	</strong>
-	and from the provisional list.
-      </td>
-    </tr>
-    <tr class="test">
-      <th>
-        <a href="{% url 'provisional:index'%}add/ksb_150709_044421_ori_TADATEST.fits.fz/?source=my-bok-999.fits">
-          /provisional/add/{ref_filename}/?source={source_filename}
-        </a>
-      </th>
-      <td>
-        Add a file to list of provisional files. Overwrites previous
-        REF_FILENAME if it exists.
-        can use as in:
-        <pre>
-  fname=/data/scraped/mtn_raw/ct15m-echelle/chi141225.1273.fits
-  curl "http://localhost:8000/provisional/add/ref5/?source=$fname"
-        </pre>
-      </td>
     </tr>
 
 
@@ -435,14 +337,6 @@
         </a>
       </th>
       <td>Delete one audit record by md5sum.</td>
-    </tr>
-    <tr class="inactive">
-      <th><a href="/siap/fquery?cols=reference&limit=2">
-	  /siap/fquery?cols=reference&limit=2
-      </a></th>
-      <td>Query voi.siap using form or URL parameter. Direct query using a string payload
-	is available via: {% url 'siap:query_by_sql' %}
-      </td>
     </tr>
     <!-- ##### Schedule ##### -->
     <tr class="inactive">

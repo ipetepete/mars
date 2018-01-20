@@ -1,11 +1,10 @@
 from django.contrib import admin
 
-from .models import FilePrefix
-from natica.models import Site,Telescope,Instrument
-from .models import ObsType, ProcType, ProdType
+#from natica.models import Site,Telescope,Instrument
+#from .models import ObsType, ProcType, ProdType
 from .models import RawKeywords, FilenameKeywords
 from .models import IngestKeywords, IngestRecommendedKeywords
-from .models import SupportKeywords, FloatKeywords, HdrFunc, TacInstrumentAlias
+from .models import SupportKeywords, FloatKeywords, HdrFunc
 from .models import ErrorCode
 
 
@@ -22,23 +21,7 @@ from .models import ErrorCode
 #!    list_display = ('name',)    
 #!
 
-@admin.register(FilePrefix)
-class FilePrefixAdmin(admin.ModelAdmin):
-    #!list_display = ('site__name', 'telescope__name','instrument__name', 'prefix', 'comment')
-    list_display = ('site', 'telescope','instrument', 'prefix', 'comment')
 
-
-@admin.register(ObsType)
-class ObsTypeAdmin(admin.ModelAdmin):
-    pass
-
-@admin.register(ProcType)
-class ProcTypeAdmin(admin.ModelAdmin):
-    pass
-
-@admin.register(ProdType)
-class ProdTypeAdmin(admin.ModelAdmin):
-    pass
 
 @admin.register(IngestRecommendedKeywords)
 class IngestRecommendedKeywordsAdmin(admin.ModelAdmin):
@@ -55,9 +38,6 @@ admin.site.register(FloatKeywords)
 class HdrFuncAdmin(admin.ModelAdmin):
     list_display = ('name', 'documentation', 'inkeywords', 'outkeywords')
 
-@admin.register(TacInstrumentAlias)
-class TacInstrumentAliasAdmin(admin.ModelAdmin):
-    list_display = ('tac','hdr')
 
 @admin.register(ErrorCode)
 class ErrorCodeAdmin(admin.ModelAdmin):

@@ -9,7 +9,7 @@ from django.conf import settings
 from rest_framework import response
 from rest_framework.decorators import api_view, renderer_classes
 from rest_framework_swagger.renderers import OpenAPIRenderer, SwaggerUIRenderer
-from tada.models import FilePrefix
+from natica.models import FilePrefix
 from astropy.coordinates import SkyCoord
 
 from . import exceptions as dex
@@ -164,7 +164,7 @@ def get_categories_for_query(request):
     categories = {}
     for category in category_fields:
         indx = category.split(" as ").pop()
-        sql1 = ('SELECT {}, count(*) as total  FROM voi.siap {} group by {}'.format(category, where_clause, indx))
+        #@@@sql1 = ('SELECT {}, count(*) as total  FROM voi.siap {} group by {}'.format(category, where_clause, indx))
         cursor.execute(sql1)
         categories[indx] = utils.dictfetchall(cursor)
 

@@ -238,17 +238,17 @@ def process_query(jsearch, page, page_limit, order_fields, return_where_clause=F
     if return_where_clause:
         return where_clause
 
-    sql0 = 'SELECT count(reference) FROM voi.siap {}'.format(where_clause)
+    #@@@sql0 = 'SELECT count(reference) FROM voi.siap {}'.format(where_clause)
     #!print('DBG-6: search_by_json; sql0=',sql0)
     cursor.execute(sql0)
     total_count = cursor.fetchone()[0]
 
-    sql = ('SELECT {} FROM voi.siap {} {} {} {}'
-            .format(' '.join(response_fields.split()),
-                    where_clause,
-                    order_clause,
-                    limit_clause,
-                    offset_clause  ))
+    #@@@sql = ('SELECT {} FROM voi.siap {} {} {} {}'
+    #@@@        .format(' '.join(response_fields.split()),
+    #@@@                where_clause,
+    #@@@                order_clause,
+    #@@@                limit_clause,
+    #@@@                offset_clause  ))
     #!print('DBG-2 sql={}'.format(sql))
     #!print('DBG-2.1 cursor={}'.format(cursor))
     cursor.execute(sql)

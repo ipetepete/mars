@@ -49,10 +49,10 @@ from .serializers import AuditRecordSerializer
 #!from .plotlib import hbarplot
 import audit.errcodes as ec
 
-from schedule.models import Slot
+#!from schedule.models import Slot
 from natica.models import Site,Telescope,Instrument
 
-from siap.models import VoiSiap
+#!from siap.models import VoiSiap
 
 # curl http://localhost:8000/audit/ > ~/Downloads/list.json
 #!class SubmittalList(generics.ListAPIView):
@@ -396,20 +396,20 @@ def query(request, obsday, tele, inst, base):
     msg = '\n'.join([k+'='+str(v) for k,v in rec.items()]) + '\n'
     return HttpResponse(msg, content_type='text/plain/')
 
-def add_ingested():
-    "Update Audit records using matching Ingest records from SIAP"
-    cursor = connection.cursor()
-    # Force material view refresh
-    cursor.execute('SELECT * FROM refresh_voi_material_views()')
-    sql = 'SELECT reference,dtacqnam FROM voi.siap WHERE dtacqnam = %s'
-    for sf in AuditRecord.objects.all():
-        qs = VoiSiap.objects.raw(sql,[sf.srcpath])
-        #print('pairs={}'.format([(obj.reference, obj.dtacqnam) for obj in qs]))
-        for obj in qs:
-            AuditRecord.objects.filter(srcpath=obj.dtacqnam).update(
-                success=True,
-                arcerr = 'From SIAP',
-                archfile=obj.reference)
+#!def add_ingested():
+#!    "Update Audit records using matching Ingest records from SIAP"
+#!    cursor = connection.cursor()
+#!    # Force material view refresh
+#!    cursor.execute('SELECT * FROM refresh_voi_material_views()')
+#!    sql = 'SELECT reference,dtacqnam FROM voi.siap WHERE dtacqnam = %s'
+#!    for sf in AuditRecord.objects.all():
+#!        qs = VoiSiap.objects.raw(sql,[sf.srcpath])
+#!        #print('pairs={}'.format([(obj.reference, obj.dtacqnam) for obj in qs]))
+#!        for obj in qs:
+#!            AuditRecord.objects.filter(srcpath=obj.dtacqnam).update(
+#!                success=True,
+#!                arcerr = 'From SIAP',
+#!                archfile=obj.reference)
 
 
 def refresh(request):
@@ -429,24 +429,24 @@ def failed_ingest(request):
     qs = AuditRecord.objects.filter(success=False)
     return render(request, 'audit/failed_ingest.html', {"srcfiles": qs})
 
-# The field 'uri' In the table edu_noao_nsa.data_product contains the actual
-# file location.
-def get_fits_location(reference, root='/net/archive/PAT/'):
-    """RETURN: absolute path to FITS file
-    reference:: Archive basename of FITS file"""
-    cursor = connection.cursor()
-    sql = ("SELECT dp.uri FROM voi.siap as vs, edu_noao_nsa.data_product as dp"
-           " WHERE dp.data_product_id = vs.fits_data_product_id"
-           " AND vs.reference= '{}'").format(reference)
-    print('sql={}'.format(sql))
-    cursor.execute(sql)
-    uri = cursor.fetchone()
-    if uri != None:
-        ipath =  uri[0]
-        #return str(PurePath(root, *PurePath(ipath).parts[2:]))
-        return str(PurePath('/',*PurePath(ipath).parts[1:]))
-        #return ipath
-    return uri
+#!# The field 'uri' In the table edu_noao_nsa.data_product contains the actual
+#!# file location.
+#!def get_fits_location(reference, root='/net/archive/PAT/'):
+#!    """RETURN: absolute path to FITS file
+#!    reference:: Archive basename of FITS file"""
+#!    cursor = connection.cursor()
+#!    sql = ("SELECT dp.uri FROM voi.siap as vs, edu_noao_nsa.data_product as dp"
+#!           " WHERE dp.data_product_id = vs.fits_data_product_id"
+#!           " AND vs.reference= '{}'").format(reference)
+#!    print('sql={}'.format(sql))
+#!    cursor.execute(sql)
+#!    uri = cursor.fetchone()
+#!    if uri != None:
+#!        ipath =  uri[0]
+#!        #return str(PurePath(root, *PurePath(ipath).parts[2:]))
+#!        return str(PurePath('/',*PurePath(ipath).parts[1:]))
+#!        #return ipath
+#!    return uri
 
 
 def staged_archived_files(request):

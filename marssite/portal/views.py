@@ -5,7 +5,7 @@ from django.http import JsonResponse, HttpRequest, HttpResponse
 from django.conf import settings
 from shutil import copyfile
 from os import path
-from siap import queries
+#from siap import queries
 from . import utils
 import datetime
 import tempfile
@@ -44,7 +44,7 @@ def _link_file(fname, uname):
     userdir = os.path.join(ftpdirs, 'anon', uname)
     if os.path.isdir(userdir) == False:
         os.mkdir(userdir)
-    nfspath = queries.get_fits_location(fname)
+    #!nfspath = queries.get_fits_location(fname)
     filepath = nfsmount + nfspath
 
     # make the file for testing
@@ -115,7 +115,7 @@ def download_selected(request):
         tmp = tempfile.NamedTemporaryFile(delete=False)
         zf = zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED)
         for f in data[:10]:
-            fpath = nfsmount+queries.get_fits_location(f['file']['reference'])
+            #!fpath = nfsmount+queries.get_fits_location(f['file']['reference'])
             zf.write(os.path.abspath(fpath), f['file']['reference'])
 
         zf.close()
@@ -145,7 +145,7 @@ def download_selected(request):
 def download_single_file(request):
     filename = request.GET.get('f', '')
     filepath = nfsmount
-    filepath += queries.get_fits_location(filename)
+    #!filepath += queries.get_fits_location(filename)
     logger.debug("STAGING:DOWNLOADSIGNLEFILE:{}".format(filepath))
     if dev:
         _make_dev_file(filepath)

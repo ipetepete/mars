@@ -1,7 +1,8 @@
 from django.db import models
+from django.contrib.postgres.fields import JSONField
 from django.utils import timezone
 from django.utils.html import format_html
-from django.contrib.postgres.fields import HStoreField
+#from django.contrib.postgres.fields import HStoreField
 from natica.models import Site,Telescope,Instrument
 from django.forms import model_to_dict
 
@@ -66,7 +67,7 @@ class AuditRecord(models.Model):
 
     archfile  = models.CharField(max_length=80, blank=True,
                                  help_text='Basename of FITS file in Archive')
-    metadata = HStoreField(blank=True, null=True,
+    metadata = JSONField(blank=True, null=True,
                            help_text='FITS metadata changed by ingest')
 
     ##### Field values used for bookkeeping (by DART)

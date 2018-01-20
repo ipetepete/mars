@@ -17,7 +17,7 @@ my_apps = [
     'natica',
     'provisional',
     'schedule',
-    'siap',
+    #@@@'siap',
     'tada',
     'water',
     ]
