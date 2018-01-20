@@ -1,0 +1,8046 @@
+[
+{
+    "model": "schedule.proposal",
+    "pk": "2012B-0001",
+    "fields": {
+        "modified": "2018-01-16T22:16:22.439Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2012B-0500",
+    "fields": {
+        "modified": "2018-01-16T22:16:12.934Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2013B-0236",
+    "fields": {
+        "modified": "2018-01-16T22:14:49.259Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2013B-0270",
+    "fields": {
+        "modified": "2018-01-16T22:15:25.099Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2013B-0440",
+    "fields": {
+        "modified": "2018-01-16T22:16:56.381Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2013B-0512",
+    "fields": {
+        "modified": "2018-01-16T22:17:58.381Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2013B-0528",
+    "fields": {
+        "modified": "2018-01-16T22:14:51.020Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2014B-0404",
+    "fields": {
+        "modified": "2018-01-16T22:16:50.068Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015A-0071",
+    "fields": {
+        "modified": "2018-01-16T22:15:18.819Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0008",
+    "fields": {
+        "modified": "2018-01-16T22:15:22.872Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0009",
+    "fields": {
+        "modified": "2018-01-16T22:18:00.568Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0054",
+    "fields": {
+        "modified": "2018-01-16T22:15:25.669Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0059",
+    "fields": {
+        "modified": "2018-01-16T22:15:17.464Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0074",
+    "fields": {
+        "modified": "2018-01-16T22:15:16.081Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0076",
+    "fields": {
+        "modified": "2018-01-16T22:17:49.449Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0088",
+    "fields": {
+        "modified": "2018-01-16T22:14:53.196Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0092",
+    "fields": {
+        "modified": "2018-01-16T22:15:34.073Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0115",
+    "fields": {
+        "modified": "2018-01-16T22:16:13.501Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0118",
+    "fields": {
+        "modified": "2018-01-16T22:07:03.506Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0122",
+    "fields": {
+        "modified": "2018-01-16T22:15:26.313Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0125",
+    "fields": {
+        "modified": "2018-01-16T22:15:15.092Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0165",
+    "fields": {
+        "modified": "2018-01-16T22:17:55.200Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0175",
+    "fields": {
+        "modified": "2018-01-16T22:16:30.940Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0185",
+    "fields": {
+        "modified": "2018-01-16T22:17:43.362Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0188",
+    "fields": {
+        "modified": "2018-01-16T22:18:06.504Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0191",
+    "fields": {
+        "modified": "2018-01-16T22:16:29.900Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0215",
+    "fields": {
+        "modified": "2018-01-16T22:16:08.009Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0220",
+    "fields": {
+        "modified": "2018-01-16T22:15:02.943Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0221",
+    "fields": {
+        "modified": "2018-01-16T22:18:02.979Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0227",
+    "fields": {
+        "modified": "2018-01-16T22:14:43.766Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0238",
+    "fields": {
+        "modified": "2018-01-16T22:15:09.002Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0240",
+    "fields": {
+        "modified": "2018-01-16T22:16:23.091Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0245",
+    "fields": {
+        "modified": "2018-01-16T22:17:36.611Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0248",
+    "fields": {
+        "modified": "2018-01-16T22:17:52.088Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0250",
+    "fields": {
+        "modified": "2018-01-16T22:16:50.649Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0254",
+    "fields": {
+        "modified": "2018-01-16T22:15:19.779Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0255",
+    "fields": {
+        "modified": "2018-01-16T22:18:05.557Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0263",
+    "fields": {
+        "modified": "2018-01-16T22:16:10.582Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0265",
+    "fields": {
+        "modified": "2018-01-16T22:07:02.922Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0267",
+    "fields": {
+        "modified": "2018-01-16T22:07:02.327Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0268",
+    "fields": {
+        "modified": "2018-01-16T22:18:09.722Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0273",
+    "fields": {
+        "modified": "2018-01-16T22:18:11.557Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0282",
+    "fields": {
+        "modified": "2018-01-16T22:15:21.899Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0295",
+    "fields": {
+        "modified": "2018-01-16T22:14:46.478Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0299",
+    "fields": {
+        "modified": "2018-01-16T22:15:24.530Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0305",
+    "fields": {
+        "modified": "2018-01-16T22:16:24.744Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0307",
+    "fields": {
+        "modified": "2018-01-16T22:15:23.447Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0313",
+    "fields": {
+        "modified": "2018-01-16T22:14:43.180Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0314",
+    "fields": {
+        "modified": "2018-01-16T22:16:26.362Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0328",
+    "fields": {
+        "modified": "2018-01-16T22:17:53.467Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0347",
+    "fields": {
+        "modified": "2018-01-16T22:16:14.480Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0601",
+    "fields": {
+        "modified": "2018-01-16T22:16:36.337Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0602",
+    "fields": {
+        "modified": "2018-01-16T22:17:02.618Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0603",
+    "fields": {
+        "modified": "2018-01-16T22:17:12.757Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0604",
+    "fields": {
+        "modified": "2018-01-16T22:17:32.101Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0605",
+    "fields": {
+        "modified": "2018-01-16T22:17:33.659Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0606",
+    "fields": {
+        "modified": "2018-01-16T22:16:23.648Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0607",
+    "fields": {
+        "modified": "2018-01-16T22:17:16.889Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0608",
+    "fields": {
+        "modified": "2018-01-16T22:17:32.679Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0609",
+    "fields": {
+        "modified": "2018-01-16T22:14:44.738Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0610",
+    "fields": {
+        "modified": "2018-01-16T22:17:44.344Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0611",
+    "fields": {
+        "modified": "2018-01-16T22:17:44.941Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0612",
+    "fields": {
+        "modified": "2018-01-16T22:17:48.419Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0614",
+    "fields": {
+        "modified": "2018-01-16T22:17:57.408Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0615",
+    "fields": {
+        "modified": "2018-01-16T22:18:01.578Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0616",
+    "fields": {
+        "modified": "2018-01-16T22:18:08.740Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0617",
+    "fields": {
+        "modified": "2018-01-16T22:07:04.085Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0624",
+    "fields": {
+        "modified": "2018-01-16T22:15:44.967Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0625",
+    "fields": {
+        "modified": "2018-01-16T22:16:19.486Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0807",
+    "fields": {
+        "modified": "2018-01-16T22:14:41.438Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0819",
+    "fields": {
+        "modified": "2018-01-16T22:16:16.867Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0820",
+    "fields": {
+        "modified": "2018-01-16T22:16:15.070Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0901",
+    "fields": {
+        "modified": "2018-01-16T22:15:32.306Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0902",
+    "fields": {
+        "modified": "2018-01-16T22:15:37.435Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0903",
+    "fields": {
+        "modified": "2018-01-16T22:15:40.371Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0904",
+    "fields": {
+        "modified": "2018-01-16T22:15:45.981Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0905",
+    "fields": {
+        "modified": "2018-01-16T22:15:48.568Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0906",
+    "fields": {
+        "modified": "2018-01-16T22:15:52.676Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0907",
+    "fields": {
+        "modified": "2018-01-16T22:16:02.111Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0908",
+    "fields": {
+        "modified": "2018-01-16T22:16:05.531Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-0909",
+    "fields": {
+        "modified": "2018-01-16T22:15:31.697Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-2001",
+    "fields": {
+        "modified": "2018-01-16T22:14:54.539Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-2002",
+    "fields": {
+        "modified": "2018-01-16T22:14:38.540Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-2003",
+    "fields": {
+        "modified": "2018-01-16T22:15:28.439Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-2004",
+    "fields": {
+        "modified": "2018-01-16T22:14:48.290Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2015B-2006",
+    "fields": {
+        "modified": "2018-01-16T22:16:12.331Z"
+    }
+},
+{
+    "model": "schedule.proposal",
+    "pk": "2016A-0370",
+    "fields": {
+        "modified": "2018-01-16T22:17:40.758Z"
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 1,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-04",
+        "modified": "2018-01-16T22:06:58.765Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0267"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 2,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-04",
+        "modified": "2018-01-16T22:06:59.744Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 3,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-04",
+        "modified": "2018-01-16T22:07:00.670Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 4,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-09-04",
+        "modified": "2018-01-16T22:07:01.601Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0617"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 5,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-08-18",
+        "modified": "2018-01-16T22:07:13.619Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 6,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-08-19",
+        "modified": "2018-01-16T22:07:14.100Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 7,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-08-20",
+        "modified": "2018-01-16T22:07:14.580Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 8,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-08-27",
+        "modified": "2018-01-16T22:07:15.070Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 9,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-08-28",
+        "modified": "2018-01-16T22:07:16.001Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 10,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-05",
+        "modified": "2018-01-16T22:07:17.858Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0267"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 11,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-06",
+        "modified": "2018-01-16T22:07:18.798Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0267"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 12,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-07",
+        "modified": "2018-01-16T22:07:19.710Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0807"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 13,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-08",
+        "modified": "2018-01-16T22:07:20.654Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0807"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 14,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-09",
+        "modified": "2018-01-16T22:07:21.578Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0807"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 15,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-10",
+        "modified": "2018-01-16T22:07:22.538Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0807"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 16,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-15",
+        "modified": "2018-01-16T22:07:23.448Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 17,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-16",
+        "modified": "2018-01-16T22:07:24.378Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0227"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 18,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-17",
+        "modified": "2018-01-16T22:07:25.323Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0227"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 19,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-21",
+        "modified": "2018-01-16T22:07:26.231Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0609"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 20,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-22",
+        "modified": "2018-01-16T22:07:27.102Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0609"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 21,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-23",
+        "modified": "2018-01-16T22:07:28.019Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0609"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 22,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-24",
+        "modified": "2018-01-16T22:07:28.939Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0609"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 23,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-25",
+        "modified": "2018-01-16T22:07:29.867Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0295"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 24,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-26",
+        "modified": "2018-01-16T22:07:30.789Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0295"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 25,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-27",
+        "modified": "2018-01-16T22:07:31.691Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0295"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 26,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-09-28",
+        "modified": "2018-01-16T22:07:32.620Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0295"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 27,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-09-29",
+        "modified": "2018-01-16T22:07:33.571Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2004"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 28,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-09-30",
+        "modified": "2018-01-16T22:07:34.508Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2004"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 29,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-01",
+        "modified": "2018-01-16T22:07:35.460Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 30,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-02",
+        "modified": "2018-01-16T22:07:36.370Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 31,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-03",
+        "modified": "2018-01-16T22:07:37.270Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 32,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-04",
+        "modified": "2018-01-16T22:07:38.199Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 33,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-15",
+        "modified": "2018-01-16T22:07:39.117Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 34,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-16",
+        "modified": "2018-01-16T22:07:39.606Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 35,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-17",
+        "modified": "2018-01-16T22:07:40.529Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 36,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-18",
+        "modified": "2018-01-16T22:07:41.460Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 37,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-19",
+        "modified": "2018-01-16T22:07:42.421Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 38,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-23",
+        "modified": "2018-01-16T22:07:43.381Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0088"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 39,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-24",
+        "modified": "2018-01-16T22:07:44.316Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0088"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 40,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-25",
+        "modified": "2018-01-16T22:07:45.260Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0088"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 41,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-10-26",
+        "modified": "2018-01-16T22:07:46.204Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 42,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-10-27",
+        "modified": "2018-01-16T22:07:47.135Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 43,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-10-28",
+        "modified": "2018-01-16T22:07:48.071Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 44,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-10-29",
+        "modified": "2018-01-16T22:07:48.988Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 45,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-30",
+        "modified": "2018-01-16T22:07:49.880Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 46,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-10-31",
+        "modified": "2018-01-16T22:07:50.800Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 47,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-01",
+        "modified": "2018-01-16T22:07:51.743Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 48,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-02",
+        "modified": "2018-01-16T22:07:52.634Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 49,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-03",
+        "modified": "2018-01-16T22:07:53.561Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 50,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-04",
+        "modified": "2018-01-16T22:07:54.508Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 51,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-05",
+        "modified": "2018-01-16T22:07:55.420Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 52,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-06",
+        "modified": "2018-01-16T22:07:56.356Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 53,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-07",
+        "modified": "2018-01-16T22:07:57.271Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 54,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-08",
+        "modified": "2018-01-16T22:07:58.204Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 55,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-09",
+        "modified": "2018-01-16T22:07:59.101Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 56,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-10",
+        "modified": "2018-01-16T22:08:00.047Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 57,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-11",
+        "modified": "2018-01-16T22:08:00.973Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 58,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-12",
+        "modified": "2018-01-16T22:08:01.876Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 59,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-13",
+        "modified": "2018-01-16T22:08:02.805Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 60,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-14",
+        "modified": "2018-01-16T22:08:03.749Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 61,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-15",
+        "modified": "2018-01-16T22:08:04.657Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 62,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-16",
+        "modified": "2018-01-16T22:08:05.621Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0220"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 63,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-17",
+        "modified": "2018-01-16T22:08:06.529Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0220"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 64,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-18",
+        "modified": "2018-01-16T22:08:07.436Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 65,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-19",
+        "modified": "2018-01-16T22:08:08.379Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 66,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-20",
+        "modified": "2018-01-16T22:08:09.310Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 67,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-21",
+        "modified": "2018-01-16T22:08:10.228Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 68,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-22",
+        "modified": "2018-01-16T22:08:11.159Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 69,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-11-23",
+        "modified": "2018-01-16T22:08:12.078Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 70,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-24",
+        "modified": "2018-01-16T22:08:13.028Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2004"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 71,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-25",
+        "modified": "2018-01-16T22:08:13.954Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 72,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-26",
+        "modified": "2018-01-16T22:08:14.865Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 73,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-27",
+        "modified": "2018-01-16T22:08:15.782Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 74,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-28",
+        "modified": "2018-01-16T22:08:16.679Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 75,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-29",
+        "modified": "2018-01-16T22:08:17.586Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 76,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-11-30",
+        "modified": "2018-01-16T22:08:18.500Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0236"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 77,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-01",
+        "modified": "2018-01-16T22:08:19.409Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 78,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-02",
+        "modified": "2018-01-16T22:08:20.298Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 79,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-03",
+        "modified": "2018-01-16T22:08:21.266Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 80,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-04",
+        "modified": "2018-01-16T22:08:22.199Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 81,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-05",
+        "modified": "2018-01-16T22:08:23.125Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 82,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-06",
+        "modified": "2018-01-16T22:08:24.041Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0238"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 83,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-07",
+        "modified": "2018-01-16T22:08:24.967Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 84,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-08",
+        "modified": "2018-01-16T22:08:25.922Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 85,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-09",
+        "modified": "2018-01-16T22:08:26.829Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 86,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "obsdate": "2015-12-10",
+        "modified": "2018-01-16T22:08:27.749Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0528"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 87,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-11",
+        "modified": "2018-01-16T22:08:28.696Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 88,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-12",
+        "modified": "2018-01-16T22:08:29.608Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 89,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-13",
+        "modified": "2018-01-16T22:08:30.547Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 90,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-14",
+        "modified": "2018-01-16T22:08:31.495Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 91,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-15",
+        "modified": "2018-01-16T22:08:32.428Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 92,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-16",
+        "modified": "2018-01-16T22:08:33.367Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0125"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 93,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-17",
+        "modified": "2018-01-16T22:08:34.301Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0125"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 94,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-18",
+        "modified": "2018-01-16T22:08:35.208Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0074"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 95,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-19",
+        "modified": "2018-01-16T22:08:36.137Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0074"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 96,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-20",
+        "modified": "2018-01-16T22:08:37.065Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0074"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 97,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-21",
+        "modified": "2018-01-16T22:08:37.963Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0059"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 98,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2015-12-22",
+        "modified": "2018-01-16T22:08:38.889Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0059"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 99,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-23",
+        "modified": "2018-01-16T22:08:39.820Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2002"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 100,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-28",
+        "modified": "2018-01-16T22:08:40.725Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015A-0071"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 101,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-29",
+        "modified": "2018-01-16T22:08:41.659Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015A-0071"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 102,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-30",
+        "modified": "2018-01-16T22:08:42.597Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0254"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 103,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2015-12-31",
+        "modified": "2018-01-16T22:08:43.520Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0254"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 104,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-01",
+        "modified": "2018-01-16T22:08:44.441Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0254"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 105,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-02",
+        "modified": "2018-01-16T22:08:45.356Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0254"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 106,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-03",
+        "modified": "2018-01-16T22:08:46.285Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 107,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-04",
+        "modified": "2018-01-16T22:08:47.219Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0282"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 108,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-05",
+        "modified": "2018-01-16T22:08:48.139Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0282"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 109,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-06",
+        "modified": "2018-01-16T22:08:49.059Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0008"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 110,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-08",
+        "modified": "2018-01-16T22:08:50.004Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0059",
+            "2015B-0307"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 111,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-09",
+        "modified": "2018-01-16T22:08:50.943Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0059",
+            "2015B-0307"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 112,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-10",
+        "modified": "2018-01-16T22:08:51.840Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0299"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 113,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-11",
+        "modified": "2018-01-16T22:08:52.740Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 114,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-12",
+        "modified": "2018-01-16T22:08:53.651Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0282",
+            "2015B-0054"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 115,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-13",
+        "modified": "2018-01-16T22:08:54.561Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0122"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 116,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-14",
+        "modified": "2018-01-16T22:08:55.481Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0122"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 117,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-15",
+        "modified": "2018-01-16T22:08:56.409Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0122"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 118,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-16",
+        "modified": "2018-01-16T22:08:57.318Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0122"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 119,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "obsdate": "2016-01-17",
+        "modified": "2018-01-16T22:08:58.256Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0122"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 120,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-20",
+        "modified": "2018-01-16T22:08:59.187Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 121,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-21",
+        "modified": "2018-01-16T22:09:00.121Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 122,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-22",
+        "modified": "2018-01-16T22:09:01.041Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 123,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-23",
+        "modified": "2018-01-16T22:09:01.948Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001",
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 124,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-24",
+        "modified": "2018-01-16T22:09:02.878Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001",
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 125,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-25",
+        "modified": "2018-01-16T22:09:03.799Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001",
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 126,
+    "fields": {
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "obsdate": "2016-01-26",
+        "modified": "2018-01-16T22:09:04.729Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2001",
+            "2015B-2003"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 127,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-06",
+        "modified": "2018-01-16T22:09:05.630Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0909"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 128,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-10",
+        "modified": "2018-01-16T22:09:06.563Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 129,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-11",
+        "modified": "2018-01-16T22:09:07.491Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 130,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-12",
+        "modified": "2018-01-16T22:09:08.393Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 131,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-13",
+        "modified": "2018-01-16T22:09:09.333Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 132,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-14",
+        "modified": "2018-01-16T22:09:10.249Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 133,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-15",
+        "modified": "2018-01-16T22:09:11.158Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 134,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-16",
+        "modified": "2018-01-16T22:09:12.051Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 135,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-17",
+        "modified": "2018-01-16T22:09:12.980Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 136,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-18",
+        "modified": "2018-01-16T22:09:13.909Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 137,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-19",
+        "modified": "2018-01-16T22:09:14.867Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 138,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-09-20",
+        "modified": "2018-01-16T22:09:15.773Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 139,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-01",
+        "modified": "2018-01-16T22:09:16.716Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0909"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 140,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-02",
+        "modified": "2018-01-16T22:09:17.647Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 141,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-03",
+        "modified": "2018-01-16T22:09:18.597Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 142,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-04",
+        "modified": "2018-01-16T22:09:19.508Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 143,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-05",
+        "modified": "2018-01-16T22:09:20.431Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 144,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-06",
+        "modified": "2018-01-16T22:09:21.350Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 145,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-07",
+        "modified": "2018-01-16T22:09:22.292Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 146,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-08",
+        "modified": "2018-01-16T22:09:23.230Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0902"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 147,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-09",
+        "modified": "2018-01-16T22:09:24.176Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 148,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-10",
+        "modified": "2018-01-16T22:09:25.082Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 149,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-11",
+        "modified": "2018-01-16T22:09:26.016Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 150,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-12",
+        "modified": "2018-01-16T22:09:26.979Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 151,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-13",
+        "modified": "2018-01-16T22:09:27.885Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 152,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-14",
+        "modified": "2018-01-16T22:09:28.826Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 153,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-15",
+        "modified": "2018-01-16T22:09:29.739Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 154,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-16",
+        "modified": "2018-01-16T22:09:30.652Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 155,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-17",
+        "modified": "2018-01-16T22:09:31.567Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 156,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-18",
+        "modified": "2018-01-16T22:09:32.468Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 157,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-19",
+        "modified": "2018-01-16T22:09:33.415Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0909"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 158,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-10-30",
+        "modified": "2018-01-16T22:09:34.316Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0624"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 159,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-06",
+        "modified": "2018-01-16T22:09:34.799Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0624"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 160,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-08",
+        "modified": "2018-01-16T22:09:35.319Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 161,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-09",
+        "modified": "2018-01-16T22:09:36.238Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 162,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-10",
+        "modified": "2018-01-16T22:09:37.163Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 163,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-11",
+        "modified": "2018-01-16T22:09:38.089Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 164,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-12",
+        "modified": "2018-01-16T22:09:39.024Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 165,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-13",
+        "modified": "2018-01-16T22:09:39.960Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0904"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 166,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-14",
+        "modified": "2018-01-16T22:09:41.131Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0905"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 167,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-15",
+        "modified": "2018-01-16T22:09:42.067Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0905"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 168,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-16",
+        "modified": "2018-01-16T22:09:42.973Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0905"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 169,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-23",
+        "modified": "2018-01-16T22:09:43.906Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0909"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 170,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-24",
+        "modified": "2018-01-16T22:09:44.826Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0624"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 171,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-11-30",
+        "modified": "2018-01-16T22:09:45.289Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 172,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-01",
+        "modified": "2018-01-16T22:09:46.237Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 173,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-02",
+        "modified": "2018-01-16T22:09:47.159Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 174,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-03",
+        "modified": "2018-01-16T22:09:48.086Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 175,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-04",
+        "modified": "2018-01-16T22:09:49.002Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 176,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-05",
+        "modified": "2018-01-16T22:09:49.953Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 177,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-06",
+        "modified": "2018-01-16T22:09:50.880Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 178,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-07",
+        "modified": "2018-01-16T22:09:51.796Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 179,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-08",
+        "modified": "2018-01-16T22:09:52.721Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 180,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-09",
+        "modified": "2018-01-16T22:09:53.662Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 181,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-10",
+        "modified": "2018-01-16T22:09:54.583Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 182,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-11",
+        "modified": "2018-01-16T22:09:55.509Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0906"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 183,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-12",
+        "modified": "2018-01-16T22:09:56.425Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 184,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-13",
+        "modified": "2018-01-16T22:09:57.359Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 185,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-14",
+        "modified": "2018-01-16T22:09:58.297Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 186,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-15",
+        "modified": "2018-01-16T22:09:59.217Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0901"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 187,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-16",
+        "modified": "2018-01-16T22:10:00.128Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 188,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-17",
+        "modified": "2018-01-16T22:10:01.059Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 189,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-18",
+        "modified": "2018-01-16T22:10:02.005Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 190,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-19",
+        "modified": "2018-01-16T22:10:02.911Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 191,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-20",
+        "modified": "2018-01-16T22:10:03.829Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 192,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-21",
+        "modified": "2018-01-16T22:10:04.753Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 193,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2015-12-22",
+        "modified": "2018-01-16T22:10:05.692Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0903"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 194,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-03",
+        "modified": "2018-01-16T22:10:06.640Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 195,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-04",
+        "modified": "2018-01-16T22:10:07.570Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 196,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-05",
+        "modified": "2018-01-16T22:10:08.478Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 197,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-06",
+        "modified": "2018-01-16T22:10:09.388Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 198,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-07",
+        "modified": "2018-01-16T22:10:10.299Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0092"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 199,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-08",
+        "modified": "2018-01-16T22:10:11.200Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 200,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-09",
+        "modified": "2018-01-16T22:10:12.104Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 201,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-10",
+        "modified": "2018-01-16T22:10:13.060Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 202,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-11",
+        "modified": "2018-01-16T22:10:14.005Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 203,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-12",
+        "modified": "2018-01-16T22:10:14.959Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 204,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-13",
+        "modified": "2018-01-16T22:10:15.897Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 205,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-14",
+        "modified": "2018-01-16T22:10:16.837Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 206,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-15",
+        "modified": "2018-01-16T22:10:17.768Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0907"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 207,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-16",
+        "modified": "2018-01-16T22:10:18.706Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 208,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-17",
+        "modified": "2018-01-16T22:10:19.622Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 209,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-18",
+        "modified": "2018-01-16T22:10:20.545Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 210,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-19",
+        "modified": "2018-01-16T22:10:21.465Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 211,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-20",
+        "modified": "2018-01-16T22:10:22.387Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 212,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-21",
+        "modified": "2018-01-16T22:10:23.352Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0908"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 213,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-22",
+        "modified": "2018-01-16T22:10:24.267Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 214,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-23",
+        "modified": "2018-01-16T22:10:25.167Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 215,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-24",
+        "modified": "2018-01-16T22:10:26.077Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 216,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-25",
+        "modified": "2018-01-16T22:10:26.999Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 217,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-26",
+        "modified": "2018-01-16T22:10:27.927Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 218,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-27",
+        "modified": "2018-01-16T22:10:28.842Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0215"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 219,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-28",
+        "modified": "2018-01-16T22:10:29.781Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0263"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 220,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-29",
+        "modified": "2018-01-16T22:10:30.691Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0263"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 221,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-30",
+        "modified": "2018-01-16T22:10:31.580Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0263"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 222,
+    "fields": {
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "obsdate": "2016-01-31",
+        "modified": "2018-01-16T22:10:32.558Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0263"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 223,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-09-30",
+        "modified": "2018-01-16T22:10:33.465Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2006"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 224,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-10-04",
+        "modified": "2018-01-16T22:10:33.951Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0500"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 225,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-10-27",
+        "modified": "2018-01-16T22:10:34.953Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0115"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 226,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-10-30",
+        "modified": "2018-01-16T22:10:35.909Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0500"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 227,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-10-31",
+        "modified": "2018-01-16T22:10:36.802Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 228,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-07",
+        "modified": "2018-01-16T22:10:37.729Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0820"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 229,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-08",
+        "modified": "2018-01-16T22:10:38.213Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0820"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 230,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-16",
+        "modified": "2018-01-16T22:10:38.681Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 231,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-17",
+        "modified": "2018-01-16T22:10:39.162Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 232,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-20",
+        "modified": "2018-01-16T22:10:39.638Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0819"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 233,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-21",
+        "modified": "2018-01-16T22:10:40.589Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0819"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 234,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-22",
+        "modified": "2018-01-16T22:10:41.541Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0819"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 235,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-23",
+        "modified": "2018-01-16T22:10:42.472Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0819"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 236,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-24",
+        "modified": "2018-01-16T22:10:43.412Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0115"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 237,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-25",
+        "modified": "2018-01-16T22:10:44.340Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0115"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 238,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-26",
+        "modified": "2018-01-16T22:10:45.302Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-2006",
+            "2015B-0625"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 239,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-27",
+        "modified": "2018-01-16T22:10:46.214Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 240,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-28",
+        "modified": "2018-01-16T22:10:47.119Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 241,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-29",
+        "modified": "2018-01-16T22:10:48.070Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0500"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 242,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-11-30",
+        "modified": "2018-01-16T22:10:48.974Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 243,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-12-01",
+        "modified": "2018-01-16T22:10:49.452Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0347"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 244,
+    "fields": {
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "obsdate": "2015-12-05",
+        "modified": "2018-01-16T22:10:49.921Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0115"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 245,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-04",
+        "modified": "2018-01-16T22:10:50.830Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 246,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-05",
+        "modified": "2018-01-16T22:10:51.305Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0240"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 247,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-06",
+        "modified": "2018-01-16T22:10:52.222Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0606"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 248,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-07",
+        "modified": "2018-01-16T22:10:53.141Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0606"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 249,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-08",
+        "modified": "2018-01-16T22:10:54.053Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 250,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-09",
+        "modified": "2018-01-16T22:10:54.970Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0307",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 251,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-10",
+        "modified": "2018-01-16T22:10:55.896Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0307",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 252,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-11",
+        "modified": "2018-01-16T22:10:56.849Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0314"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 253,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-12",
+        "modified": "2018-01-16T22:10:57.779Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 254,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-13",
+        "modified": "2018-01-16T22:10:58.699Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 255,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-14",
+        "modified": "2018-01-16T22:10:59.652Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 256,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-15",
+        "modified": "2018-01-16T22:11:00.620Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 257,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-16",
+        "modified": "2018-01-16T22:11:01.572Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 258,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-17",
+        "modified": "2018-01-16T22:11:02.489Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 259,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-18",
+        "modified": "2018-01-16T22:11:03.430Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0191"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 260,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-19",
+        "modified": "2018-01-16T22:11:04.341Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0191"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 261,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-20",
+        "modified": "2018-01-16T22:11:05.278Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 262,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-21",
+        "modified": "2018-01-16T22:11:06.221Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 263,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-22",
+        "modified": "2018-01-16T22:11:07.129Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 264,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-23",
+        "modified": "2018-01-16T22:11:08.068Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 265,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-24",
+        "modified": "2018-01-16T22:11:08.939Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 266,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-30",
+        "modified": "2018-01-16T22:11:09.880Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 267,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-08-31",
+        "modified": "2018-01-16T22:11:10.800Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 268,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-01",
+        "modified": "2018-01-16T22:11:11.717Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0314"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 269,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-02",
+        "modified": "2018-01-16T22:11:12.628Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 270,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-03",
+        "modified": "2018-01-16T22:11:13.538Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0307",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 271,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-05",
+        "modified": "2018-01-16T22:11:15.351Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0265"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 272,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-06",
+        "modified": "2018-01-16T22:11:16.267Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 273,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-07",
+        "modified": "2018-01-16T22:11:17.179Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 274,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-08",
+        "modified": "2018-01-16T22:11:18.126Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 275,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-09",
+        "modified": "2018-01-16T22:11:19.034Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 276,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-10",
+        "modified": "2018-01-16T22:11:19.969Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 277,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-11",
+        "modified": "2018-01-16T22:11:20.901Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0601"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 278,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-12",
+        "modified": "2018-01-16T22:11:21.825Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 279,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-13",
+        "modified": "2018-01-16T22:11:22.719Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 280,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-14",
+        "modified": "2018-01-16T22:11:23.625Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 281,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-15",
+        "modified": "2018-01-16T22:11:24.528Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 282,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-16",
+        "modified": "2018-01-16T22:11:25.422Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 283,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-17",
+        "modified": "2018-01-16T22:11:26.366Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 284,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-18",
+        "modified": "2018-01-16T22:11:27.307Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 285,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-19",
+        "modified": "2018-01-16T22:11:28.221Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 286,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-20",
+        "modified": "2018-01-16T22:11:29.152Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 287,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-21",
+        "modified": "2018-01-16T22:11:30.049Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 288,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-22",
+        "modified": "2018-01-16T22:11:30.978Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 289,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-23",
+        "modified": "2018-01-16T22:11:31.907Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 290,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-24",
+        "modified": "2018-01-16T22:11:32.846Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 291,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-25",
+        "modified": "2018-01-16T22:11:33.787Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 292,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-26",
+        "modified": "2018-01-16T22:11:34.704Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 293,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-27",
+        "modified": "2018-01-16T22:11:35.190Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 294,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-28",
+        "modified": "2018-01-16T22:11:35.664Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 295,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-09-30",
+        "modified": "2018-01-16T22:11:36.123Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 296,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-01",
+        "modified": "2018-01-16T22:11:37.030Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 297,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-02",
+        "modified": "2018-01-16T22:11:37.948Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 298,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-03",
+        "modified": "2018-01-16T22:11:38.884Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 299,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-04",
+        "modified": "2018-01-16T22:11:39.821Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 300,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-05",
+        "modified": "2018-01-16T22:11:40.748Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 301,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-06",
+        "modified": "2018-01-16T22:11:41.652Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 302,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-07",
+        "modified": "2018-01-16T22:11:42.582Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 303,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-08",
+        "modified": "2018-01-16T22:11:43.500Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 304,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-09",
+        "modified": "2018-01-16T22:11:44.433Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 305,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-10",
+        "modified": "2018-01-16T22:11:45.350Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 306,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-11",
+        "modified": "2018-01-16T22:11:46.281Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0250"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 307,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-12",
+        "modified": "2018-01-16T22:11:47.219Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0250"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 308,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-13",
+        "modified": "2018-01-16T22:11:48.140Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 309,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-14",
+        "modified": "2018-01-16T22:11:49.082Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 310,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-15",
+        "modified": "2018-01-16T22:11:50.002Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 311,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-16",
+        "modified": "2018-01-16T22:11:50.918Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 312,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-17",
+        "modified": "2018-01-16T22:11:51.860Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 313,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-18",
+        "modified": "2018-01-16T22:11:52.808Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 314,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-19",
+        "modified": "2018-01-16T22:11:53.750Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 315,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-20",
+        "modified": "2018-01-16T22:11:54.660Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 316,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-21",
+        "modified": "2018-01-16T22:11:55.570Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 317,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-22",
+        "modified": "2018-01-16T22:11:56.494Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 318,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-23",
+        "modified": "2018-01-16T22:11:57.430Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 319,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-24",
+        "modified": "2018-01-16T22:11:58.341Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 320,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-25",
+        "modified": "2018-01-16T22:11:59.275Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 321,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-27",
+        "modified": "2018-01-16T22:12:00.222Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 322,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-28",
+        "modified": "2018-01-16T22:12:01.174Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 323,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-29",
+        "modified": "2018-01-16T22:12:02.107Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 324,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-30",
+        "modified": "2018-01-16T22:12:03.049Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 325,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-10-31",
+        "modified": "2018-01-16T22:12:03.991Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 326,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-01",
+        "modified": "2018-01-16T22:12:04.915Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 327,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-02",
+        "modified": "2018-01-16T22:12:05.858Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 328,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-03",
+        "modified": "2018-01-16T22:12:06.780Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 329,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-04",
+        "modified": "2018-01-16T22:12:07.729Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 330,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-05",
+        "modified": "2018-01-16T22:12:08.662Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 331,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-06",
+        "modified": "2018-01-16T22:12:09.581Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 332,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-07",
+        "modified": "2018-01-16T22:12:10.526Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 333,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-08",
+        "modified": "2018-01-16T22:12:11.446Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 334,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-09",
+        "modified": "2018-01-16T22:12:12.379Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 335,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-10",
+        "modified": "2018-01-16T22:12:13.323Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0602"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 336,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-11",
+        "modified": "2018-01-16T22:12:14.305Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0602"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 337,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-12",
+        "modified": "2018-01-16T22:12:15.251Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 338,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-13",
+        "modified": "2018-01-16T22:12:16.156Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 339,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-14",
+        "modified": "2018-01-16T22:12:17.079Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 340,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-15",
+        "modified": "2018-01-16T22:12:17.978Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 341,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-16",
+        "modified": "2018-01-16T22:12:18.901Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 342,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-17",
+        "modified": "2018-01-16T22:12:19.811Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 343,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-18",
+        "modified": "2018-01-16T22:12:20.747Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 344,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-19",
+        "modified": "2018-01-16T22:12:21.674Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 345,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-20",
+        "modified": "2018-01-16T22:12:22.581Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 346,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-21",
+        "modified": "2018-01-16T22:12:23.465Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 347,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-22",
+        "modified": "2018-01-16T22:12:24.375Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 348,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-23",
+        "modified": "2018-01-16T22:12:25.300Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 349,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-26",
+        "modified": "2018-01-16T22:12:26.207Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 350,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-27",
+        "modified": "2018-01-16T22:12:27.153Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 351,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-28",
+        "modified": "2018-01-16T22:12:28.100Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 352,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-29",
+        "modified": "2018-01-16T22:12:29.029Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 353,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-11-30",
+        "modified": "2018-01-16T22:12:29.967Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 354,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-01",
+        "modified": "2018-01-16T22:12:30.896Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 355,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-02",
+        "modified": "2018-01-16T22:12:31.831Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 356,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-03",
+        "modified": "2018-01-16T22:12:32.779Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 357,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-04",
+        "modified": "2018-01-16T22:12:33.705Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 358,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-05",
+        "modified": "2018-01-16T22:12:34.647Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 359,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-06",
+        "modified": "2018-01-16T22:12:35.570Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 360,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-07",
+        "modified": "2018-01-16T22:12:36.479Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0603"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 361,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-08",
+        "modified": "2018-01-16T22:12:37.408Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 362,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-09",
+        "modified": "2018-01-16T22:12:38.317Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 363,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-10",
+        "modified": "2018-01-16T22:12:39.249Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 364,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-11",
+        "modified": "2018-01-16T22:12:40.170Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 365,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-12",
+        "modified": "2018-01-16T22:12:41.107Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 366,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-13",
+        "modified": "2018-01-16T22:12:42.100Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 367,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-14",
+        "modified": "2018-01-16T22:12:43.031Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 368,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-15",
+        "modified": "2018-01-16T22:12:43.964Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 369,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-16",
+        "modified": "2018-01-16T22:12:44.910Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 370,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-17",
+        "modified": "2018-01-16T22:12:45.791Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 371,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-18",
+        "modified": "2018-01-16T22:12:46.729Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 372,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-19",
+        "modified": "2018-01-16T22:12:47.680Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 373,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-20",
+        "modified": "2018-01-16T22:12:48.599Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 374,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-21",
+        "modified": "2018-01-16T22:12:49.499Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 375,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-22",
+        "modified": "2018-01-16T22:12:50.412Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0607"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 376,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-26",
+        "modified": "2018-01-16T22:12:51.348Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 377,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-27",
+        "modified": "2018-01-16T22:12:52.278Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0314",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 378,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-28",
+        "modified": "2018-01-16T22:12:53.205Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 379,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-29",
+        "modified": "2018-01-16T22:12:54.150Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0175"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 380,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-30",
+        "modified": "2018-01-16T22:12:55.060Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 381,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2015-12-31",
+        "modified": "2018-01-16T22:12:55.978Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0307",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 382,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-01",
+        "modified": "2018-01-16T22:12:56.919Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 383,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-02",
+        "modified": "2018-01-16T22:12:57.854Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 384,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-03",
+        "modified": "2018-01-16T22:12:58.771Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 385,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-04",
+        "modified": "2018-01-16T22:12:59.703Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 386,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-05",
+        "modified": "2018-01-16T22:13:00.614Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 387,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-06",
+        "modified": "2018-01-16T22:13:01.551Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2013B-0440"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 388,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-07",
+        "modified": "2018-01-16T22:13:02.498Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 389,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-08",
+        "modified": "2018-01-16T22:13:03.411Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 390,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-09",
+        "modified": "2018-01-16T22:13:04.340Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 391,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-10",
+        "modified": "2018-01-16T22:13:05.268Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 392,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-11",
+        "modified": "2018-01-16T22:13:06.206Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 393,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-12",
+        "modified": "2018-01-16T22:13:07.131Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 394,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-13",
+        "modified": "2018-01-16T22:13:08.057Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 395,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-14",
+        "modified": "2018-01-16T22:13:08.959Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 396,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-15",
+        "modified": "2018-01-16T22:13:09.920Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 397,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-16",
+        "modified": "2018-01-16T22:13:10.831Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2014B-0404"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 398,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-17",
+        "modified": "2018-01-16T22:13:11.727Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0606"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 399,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-18",
+        "modified": "2018-01-16T22:13:12.649Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0606"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 400,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-19",
+        "modified": "2018-01-16T22:13:13.580Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0307",
+            "2012B-0001"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 401,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "obsdate": "2016-01-20",
+        "modified": "2018-01-16T22:13:14.539Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2012B-0001",
+            "2015B-0305"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 402,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "cosmos",
+        "obsdate": "2016-01-28",
+        "modified": "2018-01-16T22:13:15.476Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0604"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 403,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "cosmos",
+        "obsdate": "2016-01-29",
+        "modified": "2018-01-16T22:13:16.407Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0608"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 404,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "cosmos",
+        "obsdate": "2016-01-30",
+        "modified": "2018-01-16T22:13:17.338Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0608"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 405,
+    "fields": {
+        "telescope": "ct4m",
+        "instrument": "cosmos",
+        "obsdate": "2016-01-31",
+        "modified": "2018-01-16T22:13:18.277Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0605"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 406,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-01",
+        "modified": "2018-01-16T22:13:19.219Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 407,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-02",
+        "modified": "2018-01-16T22:13:20.125Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 408,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-03",
+        "modified": "2018-01-16T22:13:21.039Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 409,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-05",
+        "modified": "2018-01-16T22:13:22.821Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 410,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-06",
+        "modified": "2018-01-16T22:13:23.780Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 411,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-09-07",
+        "modified": "2018-01-16T22:13:24.708Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0118"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 412,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-05",
+        "modified": "2018-01-16T22:13:25.657Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 413,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-06",
+        "modified": "2018-01-16T22:13:26.562Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 414,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-07",
+        "modified": "2018-01-16T22:13:27.486Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 415,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-08",
+        "modified": "2018-01-16T22:13:28.446Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 416,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-09",
+        "modified": "2018-01-16T22:13:29.377Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 417,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-10",
+        "modified": "2018-01-16T22:13:30.336Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 418,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-11",
+        "modified": "2018-01-16T22:13:31.269Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 419,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-12",
+        "modified": "2018-01-16T22:13:32.178Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 420,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-13",
+        "modified": "2018-01-16T22:13:33.122Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 421,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2015-11-14",
+        "modified": "2018-01-16T22:13:34.031Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0245"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 422,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-26",
+        "modified": "2018-01-16T22:13:34.964Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 423,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-27",
+        "modified": "2018-01-16T22:13:35.914Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 424,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-28",
+        "modified": "2018-01-16T22:13:36.837Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 425,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-29",
+        "modified": "2018-01-16T22:13:37.727Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 426,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-30",
+        "modified": "2018-01-16T22:13:38.659Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 427,
+    "fields": {
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "obsdate": "2016-01-31",
+        "modified": "2018-01-16T22:13:39.578Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2016A-0370"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 428,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "osiris",
+        "obsdate": "2015-08-01",
+        "modified": "2018-01-16T22:13:40.529Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0185"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 429,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "osiris",
+        "obsdate": "2015-08-02",
+        "modified": "2018-01-16T22:13:41.450Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0185"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 430,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-08-12",
+        "modified": "2018-01-16T22:13:42.398Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0610"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 431,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-08-14",
+        "modified": "2018-01-16T22:13:42.853Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0611"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 432,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-08-15",
+        "modified": "2018-01-16T22:13:43.778Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0611"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 433,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-08-16",
+        "modified": "2018-01-16T22:13:44.732Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0611"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 434,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-08-20",
+        "modified": "2018-01-16T22:13:45.656Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 435,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-08-29",
+        "modified": "2018-01-16T22:13:46.616Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 436,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-09-01",
+        "modified": "2018-01-16T22:13:47.518Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0617"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 437,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-09-02",
+        "modified": "2018-01-16T22:13:48.406Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0617"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 438,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-09-03",
+        "modified": "2018-01-16T22:13:49.288Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0617"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 439,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-09",
+        "modified": "2018-01-16T22:13:51.020Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0612"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 440,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-13",
+        "modified": "2018-01-16T22:13:51.924Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 441,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-14",
+        "modified": "2018-01-16T22:13:52.817Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0076"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 442,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-15",
+        "modified": "2018-01-16T22:13:53.714Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0076"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 443,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-16",
+        "modified": "2018-01-16T22:13:54.592Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0076"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 444,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-17",
+        "modified": "2018-01-16T22:13:55.474Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0076"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 445,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-18",
+        "modified": "2018-01-16T22:13:56.360Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0076"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 446,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-09-20",
+        "modified": "2018-01-16T22:13:57.279Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0610"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 447,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "osiris",
+        "obsdate": "2015-09-20",
+        "modified": "2018-01-16T22:13:57.752Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0248"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 448,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-09-27",
+        "modified": "2018-01-16T22:13:58.220Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 449,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-10-10",
+        "modified": "2018-01-16T22:13:59.108Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 450,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-10-22",
+        "modified": "2018-01-16T22:13:59.993Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0328"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 451,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-10-23",
+        "modified": "2018-01-16T22:14:00.899Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0328"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 452,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-10-24",
+        "modified": "2018-01-16T22:14:01.822Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0328"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 453,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-10-25",
+        "modified": "2018-01-16T22:14:02.758Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 454,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-10-30",
+        "modified": "2018-01-16T22:14:03.660Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0165"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 455,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-10-31",
+        "modified": "2018-01-16T22:14:04.589Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0165"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 456,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "spartan",
+        "obsdate": "2015-11-01",
+        "modified": "2018-01-16T22:14:05.516Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0165"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 457,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "soi",
+        "obsdate": "2015-11-02",
+        "modified": "2018-01-16T22:14:06.475Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0165"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 458,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "soi",
+        "obsdate": "2015-11-03",
+        "modified": "2018-01-16T22:14:07.381Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0165"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 459,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-04",
+        "modified": "2018-01-16T22:14:08.302Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0614"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 460,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-05",
+        "modified": "2018-01-16T22:14:09.230Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0614"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 461,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-10",
+        "modified": "2018-01-16T22:14:10.141Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0512"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 462,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-11",
+        "modified": "2018-01-16T22:14:11.050Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0512"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 463,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-12",
+        "modified": "2018-01-16T22:14:11.959Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0512"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 464,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-13",
+        "modified": "2018-01-16T22:14:12.910Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 465,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-11-23",
+        "modified": "2018-01-16T22:14:13.805Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 466,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-11-28",
+        "modified": "2018-01-16T22:14:14.687Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0009"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 467,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-11-29",
+        "modified": "2018-01-16T22:14:15.619Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0009"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 468,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-11-30",
+        "modified": "2018-01-16T22:14:16.550Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0615"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 469,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-01",
+        "modified": "2018-01-16T22:14:17.455Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0615"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 470,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-02",
+        "modified": "2018-01-16T22:14:18.333Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0615"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 471,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-13",
+        "modified": "2018-01-16T22:14:19.257Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0221"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 472,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-14",
+        "modified": "2018-01-16T22:14:20.136Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0221"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 473,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-15",
+        "modified": "2018-01-16T22:14:21.027Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0221"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 474,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2015-12-16",
+        "modified": "2018-01-16T22:14:21.944Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0221"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 475,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-12-17",
+        "modified": "2018-01-16T22:14:22.880Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 476,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-12-28",
+        "modified": "2018-01-16T22:14:23.766Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 477,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-12-29",
+        "modified": "2018-01-16T22:14:24.666Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0255"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 478,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2015-12-30",
+        "modified": "2018-01-16T22:14:25.561Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0255"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 479,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-02",
+        "modified": "2018-01-16T22:14:26.465Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0188"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 480,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-03",
+        "modified": "2018-01-16T22:14:27.343Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0188"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 481,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-04",
+        "modified": "2018-01-16T22:14:28.210Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0188"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 482,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-05",
+        "modified": "2018-01-16T22:14:29.111Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0612"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 483,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-13",
+        "modified": "2018-01-16T22:14:30.010Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0313"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 484,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-14",
+        "modified": "2018-01-16T22:14:30.891Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0616"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 485,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-15",
+        "modified": "2018-01-16T22:14:31.806Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0616"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 486,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2016-01-16",
+        "modified": "2018-01-16T22:14:32.709Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0268"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 487,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2016-01-17",
+        "modified": "2018-01-16T22:14:33.161Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0268"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 488,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "sami",
+        "obsdate": "2016-01-18",
+        "modified": "2018-01-16T22:14:34.077Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0268"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 489,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-23",
+        "modified": "2018-01-16T22:14:34.988Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2013B-0270"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 490,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-24",
+        "modified": "2018-01-16T22:14:35.937Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0273"
+        ]
+    }
+},
+{
+    "model": "schedule.slot",
+    "pk": 491,
+    "fields": {
+        "telescope": "soar",
+        "instrument": "goodman",
+        "obsdate": "2016-01-25",
+        "modified": "2018-01-16T22:14:36.867Z",
+        "frozen": false,
+        "split": true,
+        "proposals": [
+            "2015B-0273"
+        ]
+    }
+}
+]
