@@ -5,8 +5,8 @@ from natica.models import Site,Telescope,Instrument
 class EmptySlot(models.Model):
     #!telescope = models.CharField(max_length=80)
     #!instrument = models.CharField(max_length=20)
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)    
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)
 
     obsdate = models.DateField()
     modified = models.DateTimeField(auto_now=True, help_text='When modified' )
@@ -34,8 +34,8 @@ class Proposal(models.Model):
 class DefaultPropid(models.Model):
     #!telescope = models.CharField(max_length=10)
     #!instrument = models.CharField(max_length=20)
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)    
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)    
 
     propids = ArrayField( models.CharField(max_length=10) )
     
@@ -61,8 +61,8 @@ class Slot(models.Model):
     #instruments = [obj.name for obj in Instrument.objects.all()]
     #!telescope = models.CharField(max_length=10)
     #!instrument = models.CharField(max_length=20)
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)    
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)    
 
     obsdate = models.DateField(help_text='Observation date') # DATE-OBS
 

@@ -2,11 +2,6 @@ from django.db import models
 from django.contrib.postgres.fields import ArrayField
 from natica.models import Site,Telescope,Instrument
 
-#!class InstrumentAlias(models.Model):
-#!    reason = models.CharField(max_length=80)
-#!    #!instrument = models.ForeignKey(Instrument
-
-###########
 
 class RawKeywords(models.Model):
     """All bets are off in the original FITS file does not contain all of these.
@@ -46,6 +41,11 @@ before ingest, a warning will be logged indicating the missing fields.
     name = models.CharField(max_length=8, unique=True)
     comment = models.CharField(max_length=80, blank=True, default='')
     def __str__(self): return self.name
+
+###########
+#!class InstrumentAlias(models.Model):
+#!    reason = models.CharField(max_length=80)
+#!    #!instrument = models.ForeignKey(Instrument
 
 ###########
 

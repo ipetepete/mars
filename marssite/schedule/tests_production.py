@@ -4,7 +4,7 @@
 # ./manage.py test schedule.tests_production.ScheduleTest.test_getpropid2 
 
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.test import TestCase, Client, RequestFactory
 from .models import Slot
 import schedule.views
