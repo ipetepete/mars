@@ -115,7 +115,7 @@ def apply_tac_update(**query):
  
         if inst not in sched2hdr:
             logger.error(('No TAC alias found for "{}"; query="{}". Use MARS'
-                          ' /admin/tada/tacinstrumentalias/ to add one.')
+                          ' /admin/natica/tacinstrumentalias/ to add one.')
                          .format(inst, query))
             continue
         instrument = sched2hdr.get(inst)
