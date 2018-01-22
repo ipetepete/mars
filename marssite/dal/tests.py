@@ -5,7 +5,7 @@
 #         'page_result_count', 'to_here_count', 'total_count'
 
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.test import TestCase, Client, RequestFactory
 import dal.views
 from marssite import settings

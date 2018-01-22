@@ -26,6 +26,7 @@ class TacInstrumentAlias(models.Model):
     tac = models.CharField(max_length=20, primary_key=True,
                            help_text='Name used by TAC Schedule')
     hdr = models.ForeignKey(Instrument,
+                            on_delete=models.CASCADE,
                             help_text='Name used in FITS header')
 
 class Proposal(models.Model):
@@ -64,8 +65,8 @@ class FitsFile(models.Model):
     
     #!instrument = models.CharField(max_length=80, help_text="INSTRUME")
     #!telescope = models.CharField(max_length=80, help_text="TELESCOP")
-    instrument = models.ForeignKey(Instrument)    
-    telescope = models.ForeignKey(Telescope)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
     
     ###
     ############################################
@@ -115,9 +116,9 @@ class Hdu(models.Model):
 class FilePrefix(models.Model):
     """Archive filename prefix coded from Site, Telescope, Instrument"""
 
-    site = models.ForeignKey(Site)
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)
+    site = models.ForeignKey(Site, on_delete=models.CASCADE)
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)
     prefix = models.CharField(max_length=10,
                               help_text='Prefix for Archive Filename')
     comment = models.CharField(max_length=80, blank=True, default='')

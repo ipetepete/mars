@@ -2,6 +2,7 @@ from django.conf.urls import url
 from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
 
+app_name = 'dal'
 urlpatterns = [
     url(r'^prefix/$', views.prefix, name='prefix'),
     url(r'^obs/$', views.obstype, name='obstype'),

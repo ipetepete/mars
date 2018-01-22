@@ -26,7 +26,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect, render_to_response
 from django.views.generic import ListView
 from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.core import serializers
 from django.db import connection
 from django.db.models import Count, Q, Sum, Case, When, IntegerField

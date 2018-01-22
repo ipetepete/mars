@@ -3,6 +3,7 @@ from django.views.generic import TemplateView
 from django.contrib.auth.decorators import login_required
 from . import views
 
+app_name = 'schedule'
 urlpatterns = [
     # eg: /schedule/
     # The whole schedule

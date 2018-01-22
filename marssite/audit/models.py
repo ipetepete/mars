@@ -37,8 +37,8 @@ class AuditRecord(models.Model):
                               help_text='MD5SUM of FITS file')
     obsday = models.DateField(null=True, # allow no Dome info, only Submit
                               help_text='Observation Day')
-    telescope = models.ForeignKey(Telescope)
-    instrument = models.ForeignKey(Instrument)    
+    telescope = models.ForeignKey(Telescope, on_delete=models.CASCADE)
+    instrument = models.ForeignKey(Instrument, on_delete=models.CASCADE)
     srcpath = models.CharField(max_length=256, 
                                help_text='Path of file as submitted')
     fstop_host =  models.CharField(max_length=40, blank=True,

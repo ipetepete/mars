@@ -20,7 +20,7 @@ cd $SCRIPTDIR/marssite
 # There are cons to using keepdb and maybe higher parallel would be
 # reasonable, but test speed is very important to DEV so trumps other aspects.
 # Running under Travis CI will always have to create the new DBs since
-# it gets a new VENV everytime.
+# it gets a new VENV every time.
 #
 
 #!./manage.py test --parallel 4 schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
@@ -28,7 +28,7 @@ cd $SCRIPTDIR/marssite
    
 #@@@@ ./manage.py test --settings=marssite.test_settings dal.tests
 #./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
-./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests  audit.tests_production audit.tests_operations
+./manage.py test --keepdb schedule.tests_production schedule.tests_operations natica.tests  audit.tests_production audit.tests_operations
 
 #./manage.py test schedule.tests_production
 #./manage.py test schedule.tests_operations
