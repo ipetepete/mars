@@ -1,7 +1,5 @@
 '''For eventual replacement of legacy Science Archive DB'''
 
-# Add TacInstrumentAlias ??
-
 from django.db import models
 from django.contrib.postgres.fields import ArrayField, JSONField, DateRangeField, FloatRangeField
 

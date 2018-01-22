@@ -1,0 +1,906 @@
+[
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "ARCoIRIS",
+    "fields": {
+        "hdr": "arcoiris"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "CFIM+T2K",
+    "fields": {
+        "hdr": "ccd_imager"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "COSMOS",
+    "fields": {
+        "hdr": "cosmos"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "DECam",
+    "fields": {
+        "hdr": "decam"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "Goodman",
+    "fields": {
+        "hdr": "goodman"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "HDI",
+    "fields": {
+        "hdr": "hdi"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "KOSMOS",
+    "fields": {
+        "hdr": "kosmos"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "MOSA3",
+    "fields": {
+        "hdr": "mosaic3"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "NEWFIRM",
+    "fields": {
+        "hdr": "newfirm"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "OSIRIS",
+    "fields": {
+        "hdr": "osiris"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "SAMI",
+    "fields": {
+        "hdr": "sami"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "SOI",
+    "fields": {
+        "hdr": "soi"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "Spartan",
+    "fields": {
+        "hdr": "spartan"
+    }
+},
+{
+    "model": "natica.tacinstrumentalias",
+    "pk": "WHIRC",
+    "fields": {
+        "hdr": "whirc"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 48,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "goodman",
+        "prefix": "psg",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 49,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "goodman spectrograph",
+        "prefix": "psg",
+        "comment": "added"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 50,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "osiris",
+        "prefix": "pso",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 51,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "soi",
+        "prefix": "psi",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 52,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "spartan",
+        "prefix": "pss",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 53,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "spartan ir camera",
+        "prefix": "pss",
+        "comment": "  # added"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 54,
+    "fields": {
+        "site": "cp",
+        "telescope": "soar",
+        "instrument": "sami",
+        "prefix": "psa",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 55,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "decam",
+        "prefix": "c4d",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 56,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "cosmos",
+        "prefix": "c4c",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 57,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "ispi",
+        "prefix": "c4i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 58,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "mosaic",
+        "prefix": "c4m",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 59,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "newfirm",
+        "prefix": "c4n",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 60,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct4m",
+        "instrument": "arcoiris",
+        "prefix": "c4ai",
+        "comment": "added <2016-03-17 Thu>"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 61,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct15m",
+        "instrument": "chiron",
+        "prefix": "c15e",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 62,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct15m",
+        "instrument": "echelle",
+        "prefix": "c15e",
+        "comment": "added"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 63,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct15m",
+        "instrument": "arcon",
+        "prefix": "c15s",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 64,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct13m",
+        "instrument": "andicam",
+        "prefix": "c13a",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 65,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct1m",
+        "instrument": "y4kcam",
+        "prefix": "c1i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 66,
+    "fields": {
+        "site": "ct",
+        "telescope": "ct09m",
+        "instrument": "ccd_imager",
+        "prefix": "c09i",
+        "comment": "# renamed from arcon"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 67,
+    "fields": {
+        "site": "ct",
+        "telescope": "ctlab",
+        "instrument": "cosmos",
+        "prefix": "clc",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 68,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "mosaic",
+        "prefix": "k4m",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 69,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "mosaic3",
+        "prefix": "k4m",
+        "comment": "added"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 70,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "newfirm",
+        "prefix": "k4n",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 71,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "kosmos",
+        "prefix": "k4k",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 72,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "cosmos",
+        "prefix": "k4k",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 73,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "ice",
+        "prefix": "k4i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 74,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "wildfire",
+        "prefix": "k4w",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 75,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp4m",
+        "instrument": "flamingos",
+        "prefix": "k4f",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 76,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp35m",
+        "instrument": "whirc",
+        "prefix": "kww",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 77,
+    "fields": {
+        "site": "kp",
+        "telescope": "wiyn",
+        "instrument": "whirc",
+        "prefix": "kww",
+        "comment": "added"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 78,
+    "fields": {
+        "site": "kp",
+        "telescope": "wiyn",
+        "instrument": "bench",
+        "prefix": "kwb",
+        "comment": "changed tele (kp35m) <2016-06-17 Fri>"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 79,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp35m",
+        "instrument": "minimo/ice",
+        "prefix": "kwi",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 80,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp35m",
+        "instrument": "(p)odi",
+        "prefix": "kwo",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 81,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp21m",
+        "instrument": "mop/ice",
+        "prefix": "k21i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 82,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp21m",
+        "instrument": "wildfire",
+        "prefix": "k21w",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 83,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp21m",
+        "instrument": "falmingos",
+        "prefix": "k21f",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 84,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp21m",
+        "instrument": "gtcam",
+        "prefix": "k21g",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 85,
+    "fields": {
+        "site": "kp",
+        "telescope": "kpcf",
+        "instrument": "mop/ice",
+        "prefix": "kcfs",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 86,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp09m",
+        "instrument": "hdi",
+        "prefix": "k09h",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 87,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp09m",
+        "instrument": "mosaic",
+        "prefix": "k09m",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 88,
+    "fields": {
+        "site": "kp",
+        "telescope": "kp09m",
+        "instrument": "ice",
+        "prefix": "k09i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 89,
+    "fields": {
+        "site": "kp",
+        "telescope": "bok23m",
+        "instrument": "90prime",
+        "prefix": "ksb",
+        "comment": "BOK"
+    }
+},
+{
+    "model": "natica.fileprefix",
+    "pk": 90,
+    "fields": {
+        "site": "ct",
+        "telescope": "bok23m",
+        "instrument": "kosmos",
+        "prefix": "ksb",
+        "comment": "fake, for testing"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 1,
+    "fields": {
+        "name": "zero",
+        "code": "z",
+        "comment": "added 5/8/15 for bok"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 2,
+    "fields": {
+        "name": "object",
+        "code": "o",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 3,
+    "fields": {
+        "name": "photometric standard",
+        "code": "p",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 4,
+    "fields": {
+        "name": "bias",
+        "code": "z",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 5,
+    "fields": {
+        "name": "dome or projector flat",
+        "code": "f",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 6,
+    "fields": {
+        "name": "dome flat",
+        "code": "f",
+        "comment": "added 1/8/16 for mosaic3"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 7,
+    "fields": {
+        "name": "dflat",
+        "code": "f",
+        "comment": "added 10/23/15 (per dsid.c)"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 8,
+    "fields": {
+        "name": "flat",
+        "code": "f",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 9,
+    "fields": {
+        "name": "projector",
+        "code": "f",
+        "comment": "added 10/23/15 (per dsid.c)"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 10,
+    "fields": {
+        "name": "sky",
+        "code": "s",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 11,
+    "fields": {
+        "name": "skyflat",
+        "code": "s",
+        "comment": "added 10/23/15 (per dsid.c)"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 12,
+    "fields": {
+        "name": "dark",
+        "code": "d",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 13,
+    "fields": {
+        "name": "calibration",
+        "code": "c",
+        "comment": "added 2/1/16 for ct15m-echelle"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 14,
+    "fields": {
+        "name": "calibration or comparison",
+        "code": "c",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 15,
+    "fields": {
+        "name": "comp",
+        "code": "c",
+        "comment": "added 10/23/15 (per dsid.c)"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 16,
+    "fields": {
+        "name": "comparison",
+        "code": "c",
+        "comment": "added 10/23/15 (per dsid.c)"
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 17,
+    "fields": {
+        "name": "illumination calibration",
+        "code": "i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 18,
+    "fields": {
+        "name": "focus",
+        "code": "g",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 19,
+    "fields": {
+        "name": "fringe",
+        "code": "h",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 20,
+    "fields": {
+        "name": "pupil",
+        "code": "r",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.obstype",
+    "pk": 21,
+    "fields": {
+        "name": "nota",
+        "code": "u",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 1,
+    "fields": {
+        "name": "raw",
+        "code": "r",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 2,
+    "fields": {
+        "name": "instcal",
+        "code": "o",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 3,
+    "fields": {
+        "name": "mastercal",
+        "code": "c",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 4,
+    "fields": {
+        "name": "projected",
+        "code": "p",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 5,
+    "fields": {
+        "name": "stacked",
+        "code": "s",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 6,
+    "fields": {
+        "name": "skysub",
+        "code": "k",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.proctype",
+    "pk": 7,
+    "fields": {
+        "name": "nota",
+        "code": "u",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 1,
+    "fields": {
+        "name": "image",
+        "code": "i",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 2,
+    "fields": {
+        "name": "image 2nd version 1",
+        "code": "j",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 3,
+    "fields": {
+        "name": "dqmask",
+        "code": "d",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 4,
+    "fields": {
+        "name": "expmap",
+        "code": "e",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 5,
+    "fields": {
+        "name": "graphics (size)",
+        "code": "g",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 6,
+    "fields": {
+        "name": "weight",
+        "code": "w",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 7,
+    "fields": {
+        "name": "nota",
+        "code": "u",
+        "comment": ""
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 8,
+    "fields": {
+        "name": "wtmap",
+        "code": "-",
+        "comment": "Found in pipeline, not used for name"
+    }
+},
+{
+    "model": "natica.prodtype",
+    "pk": 9,
+    "fields": {
+        "name": "resampled",
+        "code": "-",
+        "comment": "Found in pipeline, not used for name"
+    }
+}
+]
