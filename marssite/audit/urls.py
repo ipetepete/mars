@@ -2,7 +2,7 @@ from django.conf.urls import url
 from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
 
-app_name = 'dal'
+app_name = 'audit'
 urlpatterns = [
     #url(r'^$', views.SubmittalList.as_view(), name='submittal_list'),
     url(r'^$', views.AuditRecordList.as_view(), name='sourcefile_list'),
