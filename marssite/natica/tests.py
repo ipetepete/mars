@@ -14,6 +14,7 @@ import sys
 from pprint import pformat
 import hashlib
 import json
+from unittest import SkipTest
 
 from django.test import TestCase, Client, RequestFactory
 from django.urls import reverse
@@ -170,8 +171,8 @@ class SearchTest(TestCase):
         self.assertTrue(response.json()['meta']['page_result_count']
                         <= response.json()['meta']['to_here_count']
                         <= response.json()['meta']['total_count'])
-        self.assertEqual(json.dumps(response.json()['meta']['api_version']),
-                         '"0.1.7"',
+        self.assertEqual(json.dumps(response.json()['meta']['dal_version']),
+                         '"1.0.0"',
                          msg='Unexpected API version')
         self.assertEqual(response.status_code, 200)
         #!self.assertJSONEqual(json.dumps(response.json()['resultset']),
@@ -208,6 +209,8 @@ class SearchTest(TestCase):
         self.assertEqual(response.status_code, 200)
 
 
+    # Allow extra fields for NATICA. Embed TBD list in schema later.
+    @SkipTest
     def test_search_error_1(self):
         "Error in request content: extra fields sent"
         req = '''{"coordinates": {

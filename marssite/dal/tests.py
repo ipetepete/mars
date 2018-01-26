@@ -1,5 +1,6 @@
 # Example (in mars::mars/marssite)
-# ./manage.py test --settings=marssite.test_settings dal.tests
+# ./manage.py test dal.tests
+# ./manage.py test --keepdb dal.tests
 # TO ADD:
 #  - verify EXISTANCE of "meta" fields: dal_version, timestamp, comment, sql
 #         'page_result_count', 'to_here_count', 'total_count'
@@ -10,11 +11,18 @@ from django.test import TestCase, Client, RequestFactory
 import dal.views
 from marssite import settings
 import json
+from unittest import SkipTest
 from . import expected as exp
 
 
 
 class SearchTest(TestCase):
+    maxDiff = None # too see full values in DIFF on assert failure
+    fixtures = ['natica-base-tables.json', 
+                'search_hits.FitsFile.yaml',
+                'search_hits.Proposal.yaml'
+                ]
+
 
     def test_search_0(self):
         "No filter. Verify: API version."
@@ -25,19 +33,17 @@ class SearchTest(TestCase):
                                     content_type='application/json',
                                     data=req  )
 
-       #!print('DBG: Response for empty request: {}'.format(response))
-        meta = {"dal_version": "0.1.6",
+        #print('DBG search_0: response={}'.format(response.json()))
+        meta = {"dal_version": "1.0.0",
                 "timestamp": "2017-07-05T11:44:05.946",
                 "comment": "WARNING: Has not been tested much. Does not use IMAGE_FILTER.",
-                "sql": "SELECT ...",
                 "page_result_count": 100,
                 "to_here_count": 100,
                 "total_count": 11583954}
-       #!print('DBG: response={}'.format(response.content.decode()))
+        #print('DBG: response={}'.format(response.json()))
         self.assertIn('meta', response.json())
         self.assertIn('timestamp', response.json()['meta'])
         self.assertIn('comment', response.json()['meta'])
-        self.assertIn('sql', response.json()['meta'])
         self.assertIn('page_result_count', response.json()['meta'])
         self.assertIn('to_here_count', response.json()['meta'])
         self.assertIn('total_count', response.json()['meta'])
@@ -48,60 +54,36 @@ class SearchTest(TestCase):
                         <= response.json()['meta']['to_here_count']
                         <= response.json()['meta']['total_count'])
         self.assertEqual(json.dumps(response.json()['meta']['dal_version']),
-                         '"0.1.7"',
+                         '"1.0.0"',
                          msg='Unexpected API version')
         self.assertEqual(response.status_code, 200)
         
     def test_search_1(self):
-        "MVP-1. Basics. No validation of input"
-        #! "filename": "foo",
-        req = '''{ 
-        "coordinates": { 
-            "ra": 181.368791666667,
-            "dec": -45.5396111111111
-        },
-        "pi": "Cypriano",
-        "search_box_min": 5.0,
-        "prop_id": "noao",
-        "obs_date": ["2009-04-01", "2009-04-03", "[]"],
-        "original_filename": "/ua84/mosaic/tflagana/3103/stdr1_012.fits",
-        "telescope_instrument": [["ct4m","mosaic_2"],["foobar", "bar"]],
-        "exposure_time": 15,
-        "release_date": "2010-10-01T00:00:00",
-        "image_filter":["raw", "calibrated"]
-    
-}'''
+        "MVP-1. Basics."
+        req = '''{
+        "coordinates": { "ra": 323, "dec": -1 },
+        "search_box_min": 2.0,
+        "pi": "Vivas",
+        "prop_id": "2017B-0951",
+        "obs_date": ["2017-08-10", "2017-08-20", "[]"],
+        "original_filename": 
+        "/data/small-json-scrape/c4d_170815_054546_ori.fits.json",
+        "telescope_instrument": [["ct4m","decam"],["foobar", "bar"]],
+        "exposure_time": 10,	
+        "release_date": "2017-09-14"
+        }'''
+#@@@    "image_filter":["raw", "calibrated"],
         response = self.client.post('/dal/search/',
                                     content_type='application/json',
                                     data=req  )
-        #!print('DBG: response={}'.format(response.content.decode()))
+        #print('DBG search_1: response={}'.format(response.json()))
         self.assertJSONEqual(json.dumps(response.json()['resultset']),
                              json.dumps(json.loads(exp.search_1)['resultset']),
                              msg='Unexpected resultset')
         self.assertEqual(response.status_code, 200)
 
-    def test_search_fakeerror_0(self):
-        "Fake Error for client testing: unknown type (return allowables)"
-        req = '{}'
-        response = self.client.post('/dal/search/?error=foobar',
-                                    content_type='application/json',
-                                    data=req)
-        expected = {'errorMessage':
-                    'Unknown value (foobar) for URL ERROR parameter. Allowed: '
-                    'bad_numeric,bad_search_json'}
-        self.assertJSONEqual(json.dumps(response.json()), json.dumps(expected))
-        self.assertEqual(response.status_code, 400)
-
-    def test_search_fakeerror_1(self):
-        "Fake Error for client testing: bad_numeric"
-        req = '{}'
-        response = self.client.post('/dal/search/?error=bad_numeric',
-                                    content_type='application/json',
-                                    data=req)
-        expected = {'errorMessage': 'Bad numeric value'}
-        self.assertJSONEqual(json.dumps(response.json()), json.dumps(expected))
-        self.assertEqual(response.status_code, 400)
-
+    # Allow extra fields for NATICA. Embed TBD list in schema later.
+    @SkipTest
     def test_search_error_1(self):
         "Error in request content: extra fields sent"
         req = '''{
@@ -166,7 +148,7 @@ class SearchTest(TestCase):
         "Return telescope/instrument pairs."
         #print('DBG: Using archive database: {}'.format(settings.DATABASES['archive']['HOST']))
         response = self.client.get('/dal/ti-pairs/')
-        #!print('DBG: response={}'.format(response.json()))
+        #print('DBG tipairs_0: response={}'.format(response.json()))
         #!print('DBG: expected={}'.format(exp.tipairs_0))
         self.assertJSONEqual(json.dumps(response.json()),
                              json.dumps(exp.tipairs_0))
