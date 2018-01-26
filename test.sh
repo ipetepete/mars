@@ -28,7 +28,7 @@ cd $SCRIPTDIR/marssite
    
 #@@@@ ./manage.py test --settings=marssite.test_settings dal.tests
 #./manage.py test --keepdb schedule.tests_production schedule.tests_operations tada.tests provisional.tests audit.tests_production audit.tests_operations
-./manage.py test --keepdb schedule.tests_production schedule.tests_operations natica.tests  audit.tests_production audit.tests_operations
+./manage.py test --keepdb schedule.tests_production schedule.tests_operations natica.tests  audit.tests_production audit.tests_operations dal.tests
 
 #./manage.py test schedule.tests_production
 #./manage.py test schedule.tests_operations

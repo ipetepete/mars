@@ -2,8 +2,7 @@ from django.db.models import Q
 from psycopg2.extras import NumericRange, DateRange
 
 ##############################################################################
-### for LSA API
-### These are ALL the fields that can be queried against using the Portal
+### In LSA these are ALL the fields that can be queried against using the Portal
 def coordinates(val, slop):
     if val == None: return Q()
     ra = val['ra']

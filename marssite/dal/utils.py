@@ -1,3 +1,5 @@
+"""For LSA query handling
+"""
 from collections import OrderedDict
 from pprint import pformat
 from . import exceptions as dex
@@ -41,8 +43,6 @@ def dictfetchall(cursor):
         dict(zip(columns, row))
         for row in cursor.fetchall()
     ]
-
-
 
 def remove_leading(thestring, lead):
     """Remove LEAD from left of THESTRING if its there."""

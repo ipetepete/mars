@@ -26,6 +26,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
 from rest_framework.decorators import api_view, renderer_classes
 
+from django.views.decorators.http import require_POST,require_http_methods
 from django.test import Client
 from django.utils import timezone
 from django.db.models import Q
@@ -44,9 +45,9 @@ from . import exceptions as nex
 from . import search_filters as sf
 from . import proto
 from . import file_naming as fn
+from . import utils as nu
 
-
-api_version = '0.1.7' # prototype only
+api_version = '1.0.0' # initial version intended for NATICA production
 
 # Sean: RA is measured in units of time (hours, minutes, seconds)
 # while Dec is measured in the usual units of angular measurement
@@ -596,19 +597,19 @@ def handle_uploaded_file(f, md5sum, overwrite=False):
     
 
 @api_view(['POST'])
+@require_POST
 def store(request):
     overwrite = (13 == int(request.GET.get('overwrite','123')))
-    if request.method == 'POST':
-        #try:
-        arc_fname = handle_uploaded_file(request.FILES['file'],
-                                         request.data['md5sum'],
-                                         overwrite=overwrite)
-        return JsonResponse(dict(result='file uploaded: {}'
-                                 .format(request.FILES['file'].name),
-                                 archive_filename=arc_fname ))
-        #!except Exception as err:
-        #!    #raise nex.DBStoreError(err)
-        #!    return HttpResponseBadRequest(err)
+    #try:
+    arc_fname = handle_uploaded_file(request.FILES['file'],
+                                     request.data['md5sum'],
+                                     overwrite=overwrite)
+    return JsonResponse(dict(result='file uploaded: {}'
+                             .format(request.FILES['file'].name),
+                             archive_filename=arc_fname ))
+    #!except Exception as err:
+    #!    #raise nex.DBStoreError(err)
+    #!    return HttpResponseBadRequest(err)
                         
 
 
@@ -634,12 +635,11 @@ def wrap(qdict):
 
 
 @api_view(['POST'])
+@require_POST
 def search2(request):
     """
     Search Archive, returns FITS metadata (header field/values). Use with form.
     """
-    if request.method != 'POST':
-        raise Exception('Only accepts POST http method')
     ct = "application/x-www-form-urlencoded"
     if request.content_type !=  ct :
         raise Exception("Only accepts content_type = {}. Got '{}'"
@@ -660,41 +660,12 @@ def search2(request):
                       content_type='application/json',
                       data=json.dumps(wrap(jsearch)))
 
-def make_qobj(jsearch):
-    """Construct query (anchored on FitsFile)"""
-    slop = jsearch.get('search_box_min', .001)
-    q = (sf.coordinates(jsearch.get('coordinates', None), slop)
-         & sf.exposure_time(jsearch.get('exposure_time', None))  
-         & sf.archive_filename(jsearch.get('filename', None))
-         & sf.image_filter(jsearch.get('image_filter', None))
-         & sf.dateobs(jsearch.get('obs_date', None))
-         & sf.original_filename(jsearch.get('original_filename', None))
-         & sf.pi(jsearch.get('pi', None))
-         & sf.prop_id(jsearch.get('propid', None))
-         & sf.release_date(jsearch.get('release_date', None))
-         & sf.telescope_instrument(jsearch.get('telescope_instrument', None))
-         )
-         #& sf.extras(jsearch.get('extras', None))
-         #& sf.xtension(jsearch.get('xtension', None))
-    #!q = (sf.telescope_instrument(jsearch.get('telescope_instrument', None))   )
-    logging.debug('DBG: q={}'.format(str(q)))
-    return q
 
-# pushd /home/pothiers/sandbox/natica/naticasite/natica/search-requests
-# curl -H "Content-Type: application/json" -X POST -d @search-1.json http://localhost:8080/natica/search/ | python -m json.tool
-@api_view(['POST'])
-def search(request):
-    """
-    Search Archive, returns FITS metadata (header field/values).
-    """
-    logging.debug('DBG-0 search({})'.format(request))
-    if request.method != 'POST':
-        raise Exception('Only accepts POST http method')
+
+def process_search(request):
     if request.content_type != "application/json" :
         raise Exception("Only accepts content_type = application/json. Got '{}'"
                         .format(request.content_type))
-
-    logging.debug('DBG-1 search.request.body={}'.format(request.body))
 
     page_limit = int(request.GET.get('limit','100')) # num of records per page
     page = int(request.GET.get('page','1'))
@@ -704,30 +675,11 @@ def search(request):
     jsearch = json.loads(request.body.decode('utf-8'))
     logging.debug('DBG jsearch={}'.format(jsearch))
 
-    # Validate against schema
-    try:
-        schemafile = '/etc/mars/search-schema.json'
-        with open(schemafile) as f:
-            schema = json.load(f)
-            jsonschema.validate(jsearch, schema)
-    except Exception as err:
-        raise nex.SearchSyntaxError('JSON did not validate against'
-                                    ' {}; {}'.format(schemafile, err))
+    # create queryset 
+    q = nu.make_qobj(jsearch)
 
-
-    used_fields = set(jsearch.keys())
-    if not (search_fields >= used_fields):
-        unavail = used_fields - search_fields
-        raise nex.ExtraSearchFieldError('Extra fields ({}) in search'
-                                     .format(unavail))
-    assert(search_fields >= used_fields)
-
-    q = make_qobj(jsearch)
-
-    #fullqs = FitsFile.objects.filter(q).distinct().order_by(order_fields)
     fullqs = FitsFile.objects.filter(q)
-    #total_count = len(fullqs) #.count()   tot seconds: 2.8
-    total_count = fullqs.count() #       tot seconds: 4.9
+    total_count = fullqs.count() 
     logging.debug('DBG: do query')
     try:
         qs = fullqs.order_by(order_fields)[offset:page_limit]
@@ -773,12 +725,12 @@ def search(request):
     meta = OrderedDict.fromkeys(['total_count',
                                  'page_result_count',
                                  'to_here_count',
-                                 'api_version',
+                                 'dal_version',
                                  'timestamp',
                                  'comment',
                                  'query', ])
     meta.update(
-        api_version = api_version,
+        dal_version = api_version,
         timestamp = datetime.datetime.now(),
         comment = ('WARNING: RESULTS missing values: surver_id, depth.'
                    '  (Where do they come from???)'
@@ -796,6 +748,16 @@ def search(request):
     #!logging.debug('DBG: jresponse={}'.format(jresponse)) # BIG
     return JsonResponse(jresponse)
                         
+# pushd /home/pothiers/sandbox/natica/naticasite/natica/search-requests
+# curl -H "Content-Type: application/json" -X POST -d @search-1.json http://localhost:8080/natica/search/ | python -m json.tool
+@api_view(['POST'])
+@require_POST
+def search(request):
+    """
+    Search Archive, returns FITS metadata (header field/values).
+    """
+    return process_search(request)
+
 def submit_fits_file(fits_file_path):
     """For use in a natica MANAGE command"""
     #!logging.debug('DBG-1: natica.submit_fits_file({})'.format(fits_file_path))
@@ -809,8 +771,9 @@ def submit_fits_file(fits_file_path):
         raise CommandError(r.json()['errorMessage'])
     return False
     
+@require_http_methods(["GET", "POST"])
 def query(request):
-   # if this is a POST request we need to process the form data
+    # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
         form = SearchForm(request.POST)
