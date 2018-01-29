@@ -18,7 +18,7 @@ from . import expected as exp
 
 class SearchTest(TestCase):
     maxDiff = None # too see full values in DIFF on assert failure
-    fixtures = ['natica-base-tables.json', 
+    fixtures = [#'natica-base-tables.json', 
                 'search_hits.FitsFile.yaml',
                 'search_hits.Proposal.yaml'
                 ]
