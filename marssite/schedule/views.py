@@ -188,8 +188,11 @@ def update_from_noaoprop(**query):
         prop_list = [Proposal.objects.get_or_create(pk=propid)[0]
                      for propid in propids]
         logger.debug('UPDATED[{}]: {}={}'.format(index, slot, prop_list))
-        slot.proposals = list(prop_list)
+        #! slot.proposals = list(prop_list)
+        slot.proposals.set(list(prop_list))
+        logger.debug('DBG-3')
     #return redirect('/schedule/')
+    logger.debug('DBG-4')
     return slot_pids # dict[obsdate:telescope] = set([propid, ...])
 
 def update_date(request, day):

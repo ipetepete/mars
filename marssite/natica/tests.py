@@ -58,7 +58,8 @@ def setUpModule():
 ###
 class StoreTest(TestCase):
     maxDiff = None # too see full values in DIFF on assert failure
-    fixtures = ['natica.yaml', 'test.filenamecoding.json']
+    # Not fixtures; put in initial_data migration instead
+    #fixtures = ['natica.yaml','test.filenamecoding.json', ]
 
     def setUp(self):
         self.fits1 = '/data/natica-archive/20141225/ct13m/smarts/c13a_141226_070040_ori.fits.fz'
@@ -112,7 +113,7 @@ class SearchTest(TestCase):
     maxDiff = None # too see full values in DIFF on assert failure
     #fixtures = ['dump-natica.json',]
     #fixtures = ['small-dump.json']
-    fixtures = ['dump.natica.yaml',
+    fixtures = [#! 'dump.natica.yaml',
                 'search_hits.Proposal.yaml',
                 'search_hits.FitsFile.yaml',
     ]
@@ -264,8 +265,8 @@ class SearchTest(TestCase):
 ###
 class TadaTest(TestCase):
     #! maxDiff = None # too see full values in DIFF on assert failure
-    #! fixtures = ['dump.tada.yaml', 'natica.yaml']
-    fixtures = ['init_tada.json', 'init_natica.json']
+    # Not fixtures; put in initial_data migration instead
+    #fixtures = ['init_tada.json', 'init_natica.json']
 
     def setUp(self):
         #self.factory = RequestFactory()
