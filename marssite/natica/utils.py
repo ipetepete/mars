@@ -40,8 +40,9 @@ search given in jsearch (JSON format)."""
             schema = json.load(f)
             jsonschema.validate(jsearch, schema)
     except Exception as err:
-        raise nex.SearchSyntaxError('JSON did not validate against'
-                                    ' {}; {}'.format(schemafile, err))
+        raise nex.SearchSyntaxError(
+            'JSON did not validate against {}; {}'
+            .format(schemafile, err))
 
     # Insure only allowed fields are present
     #!used_fields = set(jsearch.keys())

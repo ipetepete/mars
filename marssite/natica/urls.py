@@ -1,25 +1,23 @@
-from django.conf.urls import url
+from django.urls import include, path
 from . import views
 
 app_name = 'natica'
 urlpatterns = [
-    url(r'^store/$', views.store, name='store'),       # ESSENTIAL
-    url(r'^search/$', views.search, name='search'),      # ESSENTIAL
-    #url(r'^retrieve/$', views.retrieve, name='retrieve'),# ESSENTIAL
+    path('store/', views.store, name='store'),       # ESSENTIAL
+    path('search/', views.search, name='search'),      # ESSENTIAL
+    #path('retrieve/', views.retrieve, name='retrieve'),# ESSENTIAL
 
-    # eg: /natica/
-    #! url(r'^$', views.index, name='index'),
-    url(r'^$', views.index, name='index'),
-    #url(r'^ingest/$', views.ingest, name='ingest'),
-    url(r'^search2/$', views.search2, name='search2'),
-    url(r'^prot/$', views.prot, name='prot'),
-    url(r'^ana/$', views.analysis, name='analysis'),
-    url(r'^query/$', views.query, name='query'),
+    path('', views.index, name='index'),
+    #path('ingest/', views.ingest, name='ingest'),
+    path('search2/', views.search2, name='search2'),
+    path('prot/', views.prot, name='prot'),
+    path('ana/', views.analysis, name='analysis'),
+    path('query/', views.query, name='query'),
 
-    url(r'^prefix/$', views.prefix, name='prefix'),
-    url(r'^obs/$', views.obstype, name='obstype'),
-    url(r'^proc/$', views.proctype, name='proctype'),
-    url(r'^prod/$', views.prodtype, name='prodtype'),
+    path('prefix/', views.prefix, name='prefix'),
+    path('obs/', views.obstype, name='obstype'),
+    path('proc/', views.proctype, name='proctype'),
+    path('prod/', views.prodtype, name='prodtype'),
     
 ]
 
