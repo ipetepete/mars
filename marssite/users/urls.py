@@ -1,10 +1,9 @@
-from django.conf.urls import url
+from django.urls import include, path
 from . import views
 
 app_name = 'users'
 urlpatterns = [
-    url(r'^admin/$', views.admin, name='admin'),
-    url(r'^index/$', views.index, name='users'),
-    url(r'^$',
-        views.index, name='users'),
+    path('admin/', views.admin, name='admin'),
+    path('index/', views.index, name='users'),
+    path('',       views.index, name='users'),
 ]
