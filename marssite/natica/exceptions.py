@@ -43,6 +43,9 @@ class DBStoreError(BaseNaticaException):
 class IngestError(BaseNaticaException):
     status_code = 400
 
+class BadFitsHdrContent(BaseNaticaException):
+    status_code = 400
+
 class MissingFieldError(BaseNaticaException):
     status_code = 400
 

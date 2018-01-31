@@ -2,6 +2,7 @@
 # EXAMPLE:
 #   cd /sandbox/mars-natica/marssite
 #  ./manage.py test natica.tests.StoreTest
+#  ./manage.py test natica.tests.StoreTest.test_store_0
 #  ./manage.py test natica.tests.SearchTest.test_search_0
 #  ./manage.py test natica.tests.SearchTest.test_search_many
 #  ./manage.py test natica.tests.SearchTest
@@ -49,9 +50,9 @@ def md5(fname):
             hash_md5.update(chunk)
             return hash_md5.hexdigest()
 
-def setUpModule():
-    print('# Using archive database: {}\n'
-          .format(settings.DATABASES['default']['HOST']))
+#!def setUpModule():
+#!    print('# Using archive database: {}\n'
+#!          .format(settings.DATABASES['default']['HOST']))
 
 ##############################################################################
 ### Core NATICA tests
@@ -102,7 +103,7 @@ class StoreTest(TestCase):
                 '/natica/store/',
                 dict(md5sum=md5(self.fits1), file=f))
         jresponse=response.json()
-        #!logger.debug('DBG: store_1 jresponse={}'.format(pformat(jresponse)))
+        #logger.debug('DBG: store_1 jresponse={}'.format(pformat(jresponse)))
         self.assertEqual(response.status_code, 400)
         self.assertJSONEqual(json.dumps(jresponse), json.dumps(expected),
                              msg='Unexpected response3')
