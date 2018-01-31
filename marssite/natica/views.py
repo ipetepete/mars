@@ -22,6 +22,7 @@ import astropy.units as u
 from psycopg2.extras import NumericRange, DateRange
 
 import dateutil.parser
+from marssite.settings import BASE_DIR
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseBadRequest
 from rest_framework.decorators import api_view, renderer_classes
@@ -252,7 +253,8 @@ is not good enuf for Archive.
 
     # Validate against schema
     try:
-        schemafile = '/etc/mars/fits-header-schema.json'
+        #schemafile = '/etc/mars/fits-header-schema.json'
+        schemafile = os.path.join(BASE_DIR,'natica/fits-header-schema.json')
         with open(schemafile) as f:
             schema = json.load(f)
             jsonschema.validate(hdudictlist, schema)
