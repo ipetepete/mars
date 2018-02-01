@@ -88,7 +88,7 @@ def prot(request):
     """
     #elapsed = proto.try_queries()
     rdict = proto.try_queries()
-    logging.debug('DBG: prot.rdict={}'.format(rdict))
+    #!logging.debug('DBG: prot.rdict={}'.format(rdict))
     if 'errorMessage' in rdict:
         return JsonResponse(rdict, json_dumps_params=dict(indent=4))
     
@@ -606,6 +606,9 @@ def store(request):
     arc_fname = handle_uploaded_file(request.FILES['file'],
                                      request.data['md5sum'],
                                      overwrite=overwrite)
+    # md5sum, obsday, tele, instru, srcpath, updated, submitted,
+    # success, archerr, archfile
+    #@@@auditlib.update(request.data['md5sum'],)
     return JsonResponse(dict(result='file uploaded: {}'
                              .format(request.FILES['file'].name),
                              archive_filename=arc_fname ))
