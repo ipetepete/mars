@@ -3,7 +3,7 @@
 var webpackConfig = require('./karma/webpack.test.conf');
 
 module.exports = function(config) {
-  config.set({
+  var options = {
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
@@ -85,5 +85,21 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  })
+  };
+
+  if (process.env.TRAVIS) {
+    options.singleRun = true;
+    options.customLaunchers = {
+      Chrome_travis_ci: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    };
+    options.browsers = [
+      "Chrome_travis_ci",
+      "Firefox"
+    ];
+  }
+
+  config.set(options);
 }
