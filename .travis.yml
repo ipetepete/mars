@@ -1,0 +1,36 @@
+matrix:
+  include:
+    - language: python
+      python: 3.6
+      services: postgresql
+      env:
+        - DJANGO=1.10.5
+      before_script:
+        - psql -c 'create database travisci;' -U postgres
+      before_install:
+        - export DJANGO_SETTINGS_MODULE=marssite.settings
+        #- export PYTHONPATH=$HOME/builds/your_github_username/your_repo
+        - export PIP_USE_MIRRORS=true
+      install:
+        - pip install -r requirements.txt
+        - python3 setup.py install
+      script: python3 marssite/manage.py test
+
+    - language: node_js
+      node_js:
+        - "8"
+      install:
+        - npm install
+      script:
+        - pwd
+        - karma start ./karma.conf.js
+
+notifications:
+  slack:
+    rooms:
+      - "noao-archive:uXVasKAqU8zpHXYKRoLtGoLZ"
+    on_failure: never
+
+  email:
+    on_success: never
+    on_failure: always
