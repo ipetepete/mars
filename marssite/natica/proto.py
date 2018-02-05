@@ -45,16 +45,16 @@ def try_queries():
     for name,jsearch in search_dict.items():
         logging.debug('proto.try_queries(); name={}'.format(name))
         try:
-            logging.debug('DBG1')
+            #!logging.debug('DBG1')
             response = c.post('/natica/search/',
                               content_type='application/json',
                               data=json.dumps(jsearch))
-            logging.debug('DBG2')
+            #!logging.debug('DBG2')
         except Exception as err:
             logging.debug('DBG3')
             return dict(errorMessage = 'proto.try_queries: {}'.format(err))
 
-        logging.debug('DBG: response.json()={}'.format(response.json()))
+        #!logging.debug('DBG: response.json()={}'.format(response.json()))
 
         if response.status_code != 200:
             return response.json()
