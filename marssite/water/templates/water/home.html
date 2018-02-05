@@ -131,7 +131,7 @@
     <!-- ###                                  -->
     <tr class="spacer"><th>OPERATIONS</th><th><br /></th></tr>
     <!-- ##### Admin ##### -->
-    <!--
+    {% comment %}
     <tr class="ops">
       <th>
 	<a href="{% url 'admin:index' %}tada/">
@@ -140,7 +140,8 @@
       </th>
       <td>Edit data affecting TADA behavior.</td>
     </tr>
-    -->
+    {% endcomment %}
+
     <tr class="ops">
       <th>
         <a href="{% url 'admin:audit_auditrecord_changelist' %}">
@@ -191,6 +192,7 @@
       </th>
       <td>Replace previous audit record with new (initialized) one.</td>
     </tr>
+    {% comment %}
     <!-- #####  TADA  ##### -->
     <!--
     <tr class="ops">
@@ -294,6 +296,7 @@
       </td>
     </tr>
     -->
+    {% endcomment %}
 
     <!-- ################################################################### -->
     <!-- ### Development         -->

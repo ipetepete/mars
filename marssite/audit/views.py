@@ -18,9 +18,9 @@ import logging
 from pathlib import PurePath
 import subprocess
 from collections import defaultdict, Counter, OrderedDict
-
-
 import csv
+
+from django.views.decorators.http import require_POST,require_http_methods
 from django.utils.timezone import make_aware, now
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect, render_to_response
@@ -140,70 +140,130 @@ EXAMPLE:
 @csrf_exempt
 @api_view(['POST'])
 @parser_classes((JSONParser,))
+@require_POST
 def source(request, format='yaml'):
     """Record list of observations to be submitted for ingest. Intended to be 
 done from dome for all files.
-EXAMPLE:    
+EXAMPLES:    
     curl -H "Content-Type: application/json" -d @example-obs.json http://localhost:8000/audit/source/
+
+   curl -H "Content-Type: application/json" -X POST -d '{ "observations": [
+    {
+      "md5sum": "c89350d2f507a883bc6a3e9a6f418a10",
+      "obsday": "2016-05-12",
+      "telescope": "kp09m",
+      "instrument": "whirc",
+      "srcpath": "/data/whirc/20165012/foo1.fits"
+    },
+    {
+      "md5sum": "c89350d2f507a883bc6a3e9a6f418a11",
+      "obsday": "2016-05-12",
+      "telescope": "kp09m",
+      "instrument": "whirc",
+      "srcpath": "/data/whirc/20165012/foo2.fits"
+    }
+  ]
+}'
+
     """
-    if request.method == 'POST':
-        addcnt=0 
-        errcnt=0 
-        preexisting = set()
-        if 'observations' not in request.data:
-            logging.error(('data in POST to audit/source does not contain'
-                           ' "observations"; {}')
-                          .format(list(request.data)))
+    addcnt=0 
+    errcnt=0 
+    preexisting = set()
+    if 'observations' not in request.data:
+        logging.error(('data in POST to audit/source does not contain'
+                       ' "observations"; {}')
+                      .format(list(request.data)))
 
-        logging.debug('DBG-audit/source: request.data.observations={}'
-              .format(list(request.data['observations'])))
-        for obs in request.data['observations']:
-            auditrec = dict(md5sum = obs['md5sum'],
-                            obsday = obs['obsday'],
-                            telescope = Telescope.objects.get(
-                                pk=obs['telescope']),
-                            instrument = Instrument.objects.get(
-                                pk=obs['instrument']),
-                            srcpath = obs['srcpath'],
-                            fstop_host = obs.get('dome_host','<dome-host>'),
-                            )
+    logging.debug('DBG-audit/source: request.data.observations={}'
+          .format(list(request.data['observations'])))
+    for obs in request.data['observations']:
+        auditrec = dict(md5sum = obs['md5sum'],
+                        obsday = obs['obsday'],
+                        telescope = Telescope.objects.get(
+                            pk=obs['telescope']),
+                        instrument = Instrument.objects.get(
+                            pk=obs['instrument']),
+                        srcpath = obs['srcpath'],
+                        fstop_host = obs.get('dome_host','<dome-host>'),
+                        )
 
-            ar = AuditRecord(**auditrec)
-            try:
-                ar.full_clean()
-            except ValidationError as e:
-                errcnt += 1
-                logging.warning((
-                    'Invalid JSON data passed to {url}. '
-                    + 'Ignoring record for key {md5} and trying rest.; {valerr}'
-                ).format(url=reverse('audit:source'),
-                         md5=obs.get('md5sum','UNKNOWN'),
-                         valerr=e.message_dict
-                ))
-                continue
-            #! print('DBG: obs={}'.format(obs))
-            obj,created = AuditRecord.objects.get_or_create(
-                md5sum=obs['md5sum'],
-                defaults=auditrec)
-            if created:
-                addcnt += 1
-            else:
-                preexisting.add((obj.md5sum, obj.srcpath))
-        # END for
-        if errcnt > 0:
-            msg = ('ERROR: Added {} audit records. Got {} errors.'
-                   ' {} already existed so ignored request to add.\n'
-            ).format(addcnt, errcnt, len(preexisting))
-            for m,s in preexisting:
-                msg += '{}, {}\n'.format(m,s)
-            logging.error(msg)
+        ar = AuditRecord(**auditrec)
+        try:
+            ar.full_clean()
+        except ValidationError as e:
+            errcnt += 1
+            logging.error((
+                'Invalid JSON data passed to {url}. '
+                + 'Ignoring record for key {md5} and trying rest.; {valerr}'
+            ).format(url=reverse('audit:source'),
+                     md5=obs.get('md5sum','UNKNOWN'),
+                     valerr=e.message_dict
+            ))
+            continue
+        #! print('DBG: obs={}'.format(obs))
+        obj,created = AuditRecord.objects.get_or_create(
+            md5sum=obs['md5sum'],
+            defaults=auditrec)
+        if created:
+            addcnt += 1
         else:
-            msg = 'SUCCESS: added {} records'.format(addcnt)
-        return HttpResponse(msg)
+            preexisting.add((obj.md5sum, obj.srcpath))
+    # END for
+    if errcnt > 0:
+        msg = ('ERROR: Added {} audit records. Got {} errors (see log).'
+               ' {} already existed so ignored request to add.\n'
+        ).format(addcnt, errcnt, len(preexisting))
+        for m,s in preexisting:
+            msg += '{}, {}\n'.format(m,s)
+        logging.error(msg)
     else:
-        return HttpResponse('ERROR: expected POST')
+        msg = 'SUCCESS: added {} records'.format(addcnt)
+    return HttpResponse(msg)
 
 @csrf_exempt
+@api_view(['POST'])
+@parser_classes((JSONParser,))
+@require_POST
+def initial(request, format='yaml'):
+    """Record one file to be submitted for ingest. Intended to be done from dome.
+Initial audit record contains data passed as query string to webservice.
+
+EXAMPLES:    
+    @@@<add CURL example>
+
+    """
+    logging.debug('DBG-audit/initial: request.data.observations={}'
+          .format(list(request.data['observations'])))
+
+    overwrite = request.GET.get('overwrite', False)
+    auditrec = dict(md5sum = request.GET['md5sum'],
+                    obsday = request.GET['obsday'],
+                    telescope = Telescope.objects.get(
+                        pk=request.GET['telescope']),
+                    instrument = Instrument.objects.get(
+                        pk=request.GET['instrument']),
+                    srcpath = request.GET['srcpath'],
+                    fstop_host = request.GET.get('dome_host','<dome-host>'),
+    )
+
+    ar = AuditRecord(**auditrec)
+    try:
+        ar.full_clean()
+    except ValidationError as e:
+        logging.error('Invalid query string to {url}/{qs}; {valerr} '
+                      .format(url=reverse('audit:initial'),
+                              qs=request.META['QUERY_STRING'],
+                              valerr=e.message_dict))
+
+    obj,created = AuditRecord.objects.get_or_create(
+        md5sum=obs['md5sum'],
+        defaults=auditrec)
+
+    msg = 'SUCCESS: added {} records'.format(addcnt)
+    return HttpResponse(msg)
+
+@csrf_exempt
+@require_POST
 def submit(request, format='yaml'):
     """Record results of Archive ingest submittal.
 EXAMPLE:    
@@ -211,19 +271,16 @@ EXAMPLE:
       -d '{"source":"/a/b.fits","archfile":"xyz"}' \
        http://localhost:8000/audit/source/
     """
-    if request.method == 'POST':
-        body = json.loads(request.body.decode('utf-8'))
-        logging.debug('body={}'.format(body))
-        AuditRecord.objects.update_or_create(
-            dict(source=src,
-                 submitted=now(),
-                 success=body.get('success',True),
-                 archerr=body.get('archerr', ''),
-                 archfile=body['archfile']))
-        
-        return JsonResponse(serializers.serialize(format, qs), safe=False)
-    else:
-        return HttpResponse('ERROR: expected POST')
+    body = json.loads(request.body.decode('utf-8'))
+    logging.debug('body={}'.format(body))
+    AuditRecord.objects.update_or_create(
+        dict(source=src,
+             submitted=now(),
+             success=body.get('success',True),
+             archerr=body.get('archerr', ''),
+             archfile=body['archfile']))
+
+    return JsonResponse(serializers.serialize(format, qs), safe=False)
 
 exists_re = re.compile(r"has already been stored in the database")    
 
@@ -255,6 +312,7 @@ def delete(request, md5sum):
 
 @api_view(['POST'])
 @csrf_exempt
+@require_POST
 def update_fstop(request, md5sum, fstop, host):
     """Set the fstop (file-stop) tag to indicate a logical system location
     for the FITS file.  Intent is for fstop to be updated as FITS
@@ -307,6 +365,7 @@ def truncate(longstr, maxlen=255):
 @csrf_exempt
 @api_view(['POST'])
 @parser_classes((JSONParser,))
+@require_POST
 def update(request, format='yaml'):
     """Update audit record.
 EXAMPLE:   
@@ -315,54 +374,53 @@ EXAMPLE:
        http://localhost:8000/audit/update/; echo 
 """
     logging.debug('audit.views.py:update()')
-    if request.method == 'POST':  
-        all = set([f.name for f in AuditRecord._meta.get_fields()])
-        rdict = request.data.copy()
-        rdict['telescope'] = Telescope.objects.get(pk=rdict['telescope'])
-        rdict['instrument'] = Instrument.objects.get(pk=rdict['instrument'])
+    all = set([f.name for f in AuditRecord._meta.get_fields()])
+    rdict = request.data.copy()
+    rdict['telescope'] = Telescope.objects.get(pk=rdict['telescope'])
+    rdict['instrument'] = Instrument.objects.get(pk=rdict['instrument'])
 
-        logging.debug('uDBG-rdict={}'.format(rdict))
-        
-        md5 = rdict['md5sum']
-        fstop = 'archive' if rdict['success']==True else 'valley:cache'
-        # Create new DB values from request dictionary
-        newdefs = dict()
-        for k in all & rdict.keys() - {'md5sum'}:
-            newdefs[k] = rdict[k]
-        newdefs['fstop'] = 'archive' if rdict.get('success','NA')==True \
-                           else 'valley:cache'
-        if 'submitted' in rdict:
-            newdefs['submitted']=make_aware(dp.parse(rdict['submitted']))
-        if 'updated' in rdict:
-            newdefs['updated']=make_aware(dp.parse(rdict['updated']))
-        if 'archerr' in rdict:
-            newdefs['errcode']=ec.errcode(rdict['archerr'])
-            newdefs['archerr']=truncate(rdict['archerr'])
-        if 'srcpath' in rdict:
-            newdefs['srcpath']=truncate(rdict['srcpath'])
-        newdefs['hide'] = False # unhide anything that gets updated
-        newdefs['metadata'] = None # not useful enough to keep
-        
-        logging.debug('uDBG-newdefs={}'.format(newdefs))
-        try:
-            obj,created = AuditRecord.objects.update_or_create(md5sum=md5,
-                                                               defaults=newdefs)
-        except Exception as err:
-            logging.error('Failed to update_or_create AuditRecord with'
-                          ' md5sum={}, defaults={}'.format(md5,newdefs))
-            logging.error('Exception={}'.format(err))
-            return HttpResponseBadRequest(err)
-            
-        if created:
-            logging.warning(('WARNING: Ingest requested, '
-                   'but there was no previous dome record! '
-                   'Adding: {} {}'.format(md5,rdict['srcpath'])))
+    logging.debug('uDBG-rdict={}'.format(rdict))
 
-        logging.debug('/audit/update/ saving obj={}, attrs={}'.format(obj.md5sum,dir(obj)))
-        #!print('/audit/update/ saved obj={}'.format(obj))
+    md5 = rdict['md5sum']
+    fstop = 'archive' if rdict['success']==True else 'valley:cache'
+    # Create new DB values from request dictionary
+    newdefs = dict()
+    for k in all & rdict.keys() - {'md5sum'}:
+        newdefs[k] = rdict[k]
+    newdefs['fstop'] = 'archive' if rdict.get('success','NA')==True \
+                       else 'valley:cache'
+    if 'submitted' in rdict:
+        newdefs['submitted']=make_aware(dp.parse(rdict['submitted']))
+    if 'updated' in rdict:
+        newdefs['updated']=make_aware(dp.parse(rdict['updated']))
+    if 'archerr' in rdict:
+        newdefs['errcode']=ec.errcode(rdict['archerr'])
+        newdefs['archerr']=truncate(rdict['archerr'])
+    if 'srcpath' in rdict:
+        newdefs['srcpath']=truncate(rdict['srcpath'])
+    newdefs['hide'] = False # unhide anything that gets updated
+    newdefs['metadata'] = None # not useful enough to keep
 
-        return HttpResponse('/audit/update/ DONE. created={}, obj={}'
-                             .format(created, obj.md5sum))
+    logging.debug('uDBG-newdefs={}'.format(newdefs))
+    try:
+        obj,created = AuditRecord.objects.update_or_create(md5sum=md5,
+                                                           defaults=newdefs)
+    except Exception as err:
+        logging.error('Failed to update_or_create AuditRecord with'
+                      ' md5sum={}, defaults={}'.format(md5,newdefs))
+        logging.error('Exception={}'.format(err))
+        return HttpResponseBadRequest(err)
+
+    if created:
+        logging.warning(('WARNING: Ingest requested, '
+               'but there was no previous dome record! '
+               'Adding: {} {}'.format(md5,rdict['srcpath'])))
+
+    logging.debug('/audit/update/ saving obj={}, attrs={}'.format(obj.md5sum,dir(obj)))
+    #!print('/audit/update/ saved obj={}'.format(obj))
+
+    return HttpResponse('/audit/update/ DONE. created={}, obj={}'
+                         .format(created, obj.md5sum))
 
 
 # EXAMPLE:
@@ -697,6 +755,7 @@ class AuditRecordList(ListView):
     model = AuditRecord
 
     
+@api_view(['GET'])
 def get_recent(request):
     #format = request.GET.get('format','csv')
     #today = datetime.date.today()
