@@ -289,5 +289,19 @@ if 'TRAVIS' in os.environ:
             'PORT':     '',
         }
     }
+elif 'DEV' in os.environ:
+    DEBUG=True
+
+    SECRET_KEY = 'z9z^f+lzkzt3#9iq-0p_ufigb(4oqbtk@(okc#bjdb_cottx0)'
+    DATABASES = {
+        'default': {
+            'ENGINE':   'django.db.backends.postgresql_psycopg2',
+            'NAME':     'testdb',
+            'PASSWORD': 'password',
+            'USER':     'postgres',
+            'HOST':     'portal_testdb_1',
+            'PORT':     '5432',
+        }
+    }
 else:
-    exec(open('/etc/mars/django_local_settings.py').read())
+        exec(open('/etc/mars/django_local_settings.py').read())
