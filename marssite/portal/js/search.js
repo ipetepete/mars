@@ -208,6 +208,7 @@ export default Search = {
           }).then(
             // resolve
             (data)=>{
+              console.log("Got Telescopes", data);
               self.telescopes = data;
               telescopes = {
                 expires: moment().add(7,'days'),
