@@ -54,12 +54,30 @@ describe('Search component should mount', ()=>{
     debugger
     assert.lengthOf(this.vm.telescope, 4, 'Has 4 telescopes');
   });
+});
+
+describe('Object lookup should populate or fail gracefully', ()=>{
+  before(function(){
+    this.server = sinon.fakeServer.create();
+    this.server.autoRespond = true;
+    this.server.respondWith("GET", /object-lookup/, [
+      200,
+      {"Content-Type":"application/json"},
+      "{\"ra\":432.1, \"dec\":234.5}"
+    ]);
+    this.vm = new Vue({
+      template:"<div><h1>Testing...</h1><search></search></div>",
+      components: {'search':Search}
+   });
 
   // test codeView, resolvingObject, datepicker, submitForm, submitQuery, clear
   it("Should return an ra,dec from an object", ()=>{
-    var spy = sinon.spy();
-    testSpy("Person", spy);
     console.log("called function with spy");
+    var event = new MouseEvent("click");
+    this.vm.$children[0].objectName = "orion";
+    this.vm.$children[0].resolveObject(event).then((data)=>{
+      data.should.have.property('ra').to.equal(432.1);
+    });
     spy.should.have.been.calledWith("hi Person");
   });
 });
