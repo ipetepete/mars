@@ -37,7 +37,6 @@ Ajax = function (_opts) {
       this.xhr = new XMLHttpRequest();
       this.xhr.open(settings.method.toUpperCase(), settings.url, true);
       this.xhr.onload = function(){
-        debugger
         if( this.status >= 200 && this.status < 300){
           resolve(xhr.response);
         }else{

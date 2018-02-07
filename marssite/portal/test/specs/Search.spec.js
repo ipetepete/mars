@@ -30,10 +30,10 @@ describe('Search component should mount', ()=>{
     this.server = sinon.fakeServer.create();
     this.server.autoRespond = true;
 
-    this.server.respondWith("GET", "//localhost:8000/dal/ti-pairs/", [
+    this.server.respondWith("GET", /ti-pairs/, [
         200,
         { "Content-Type": "application/json" },
-        '[{"soar,spartan","ct4m,decam","ct4m,mosaic","soar,goodman"}]'
+        "[\"soar,spartan\",\"ct4m,decam\",\"ct4m,mosaic\",\"soar,goodman\"]"
       ]);
     this.vm = new Vue({
       template:"<div><h1>Testing...</h1><search></search></div>",
@@ -42,17 +42,17 @@ describe('Search component should mount', ()=>{
   });
 
 
-  it('Should mount without issue', ()=>{
+  it('Should mount without issue', function(){
+    debugger
     expect(typeof this.vm.$children[0].getTelescopes).to.equal('function');
   });
 
-  it('Should have an $el element', ()=>{
+  it('Should have an $el element',function(){
     assert.property(this.vm, '$el');
   });
 
   it('should have some telescopes', function(){
-    debugger
-    assert.lengthOf(this.vm.telescope, 4, 'Has 4 telescopes');
+    assert.lengthOf(this.vm.$children[0].telescopes, 4, 'Has 4 telescopes');
   });
 });
 
@@ -71,7 +71,9 @@ describe('Object lookup should populate or fail gracefully', ()=>{
    });
 
   // test codeView, resolvingObject, datepicker, submitForm, submitQuery, clear
-  it("Should return an ra,dec from an object", ()=>{
+  it("Should return an ra,dec from an object", function(){
+    var spy = sinon.spy();
+    testSpy("Person", spy);
     console.log("called function with spy");
     var event = new MouseEvent("click");
     this.vm.$children[0].objectName = "orion";
