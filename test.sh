@@ -42,3 +42,4 @@ cd $SCRIPTDIR/marssite
 #! ./manage.py test siap.tests
 
 #! ./manage.py test tada.tests.TadaTest.test_table_prefix
+

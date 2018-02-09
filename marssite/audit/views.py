@@ -20,7 +20,7 @@ import subprocess
 from collections import defaultdict, Counter, OrderedDict
 import csv
 
-from django.views.decorators.http import require_POST,require_http_methods
+from django.views.decorators.http import require_POST,require_GET,require_http_methods
 from django.utils.timezone import make_aware, now
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render, redirect, render_to_response
@@ -32,7 +32,7 @@ from django.db import connection
 from django.db.models import Count, Q, Sum, Case, When, IntegerField
 from django.template import Context, Template
 from django.template.loader import get_template
-from django.core.exceptions import ValidationError
+from django.core.exceptions import ValidationError, ObjectDoesNotExist
 from django.forms import model_to_dict
 
 import django_tables2 as tables
@@ -232,18 +232,17 @@ EXAMPLES:
     @@@<add CURL example>
 
     """
-    logging.debug('DBG-audit/initial: request.data.observations={}'
-          .format(list(request.data['observations'])))
+    logging.debug('DBG-audit/initial: request.data={}'.format(list(request.data)))
 
-    overwrite = request.GET.get('overwrite', False)
-    auditrec = dict(md5sum = request.GET['md5sum'],
-                    obsday = request.GET['obsday'],
+    overwrite = request.data.get('overwrite', False)
+    auditrec = dict(md5sum = request.data['md5sum'],
+                    obsday = request.data['obsday'],
                     telescope = Telescope.objects.get(
-                        pk=request.GET['telescope']),
+                        pk=request.data['telescope']),
                     instrument = Instrument.objects.get(
-                        pk=request.GET['instrument']),
-                    srcpath = request.GET['srcpath'],
-                    fstop_host = request.GET.get('dome_host','<dome-host>'),
+                        pk=request.data['instrument']),
+                    srcpath = request.data['srcpath'],
+                    fstop_host = request.data.get('dome_host','<dome-host>'),
     )
 
     ar = AuditRecord(**auditrec)
@@ -255,11 +254,18 @@ EXAMPLES:
                               qs=request.META['QUERY_STRING'],
                               valerr=e.message_dict))
 
-    obj,created = AuditRecord.objects.get_or_create(
-        md5sum=obs['md5sum'],
+    if overwrite:
+        obj,created = AuditRecord.objects.update_or_create(
+            md5sum=request.data['md5sum'],
         defaults=auditrec)
-
-    msg = 'SUCCESS: added {} records'.format(addcnt)
+    else: # no overwrite
+        try:
+            AuditRecord.objects.create(**auditrec)
+        except Exception as err:
+            msg = ('FAILED to add audit record: {}; {}'
+                   .format(request.data['md5sum'], err))
+            return HttpResponseBadRequest(msg)
+    msg = 'SUCCESS: added audit record: {}'.format(request.data['md5sum'])
     return HttpResponse(msg)
 
 @csrf_exempt
@@ -423,6 +429,14 @@ EXAMPLE:
                          .format(created, obj.md5sum))
 
 
+@csrf_exempt
+def get(request, md5sum):
+    qs = AuditRecord.objects.filter(pk=md5sum).values()
+    if len(qs) == 0:
+        return JsonResponse({})
+    else:
+        return JsonResponse(qs[0])
+        
 # EXAMPLE:
 # curl -s --fail "http://localhost:8000/audit/query/20161229/soar/goodman/0084.leia.fits/" >audit.out
 def query(request, obsday, tele, inst, base):

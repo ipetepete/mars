@@ -309,4 +309,5 @@ elif 'DEV' in os.environ:
         }
     }
 else:
-        exec(open('/etc/mars/django_local_settings.py').read())
+        exec(open('/etc/mars/natica_local_settings.py').read())
+
