@@ -1,0 +1,7 @@
+options:
+    DTACQNAM: /sandbox/tada/tests/smoke/tada-test-data/short-drop/20141220/wiyn-whirc/obj_355.fits.fz
+params:
+    filename: /sandbox/tada/tests/smoke/tada-test-data/short-drop/20141220/wiyn-whirc/obj_355.fits.fz
+    md5sum: 2148387e3e6eec69f04e9360043f61e4
+    job_tag: TADASMOKE
+    test_resubmit: 2

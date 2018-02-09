@@ -5,7 +5,8 @@ from . import views
 app_name = 'audit'
 urlpatterns = [
     path('', views.AuditRecordList.as_view(), name='sourcefile_list'),
-    path('source/', views.source, name='source'),
+    path('source/', views.source, name='source'),  # DEPRECATE
+    path('initial/', views.initial, name='initial'), # see source/
     path('submit/', views.submit, name='submit'),
     path('delete/<md5sum>/', views.delete, name='delete'),
     path('reaudit/<orig_md5sum>/<new_md5sum>/', views.re_audit, name='re_audit'),
@@ -15,6 +16,7 @@ urlpatterns = [
     path('update/', views.update, name='update'),
     path('query/<int:obsday>/<tele>/<inst>/<base>./',
         views.query, name='query'),
+    path('get/<md5sum>/',views.get, name='get'),
     path('missing/', views.not_ingested, name='not_ingested'),
     path('failed/', views.failed_ingest, name='failed_ingest'),
     path('stagedarc/',
