@@ -1,0 +1,2 @@
+EXECUTED: /opt/tada/venv/bin/direct_submit -p /var/tada/personalities/ops/smoke.yaml -p /data/tada-test-data/basic/uofa-mandle.jpg.yaml /DATA/basic/uofa-mandle.jpg
+Cannot ingest non-FITS file: /basic/uofa-mandle.jpg

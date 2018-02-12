@@ -1,0 +1,4 @@
+# List of files submitted is in: /var/log/tada/audit.db
+# Waiting up to 120 secs for all files to be submitted...
+# Aborted after 120 seconds
+# Not serviced: /sandbox/tada/tests/smoke/tada-test-data/short-drop/bad-date/wiyn-whirc/obj_355a.fits.fz
