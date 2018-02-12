@@ -196,11 +196,11 @@ export default Search = {
         } else {
           var url = "//" + window.location.hostname;
           console.log("fetching telescopes");
-          if( window.testing ){
-            url += ":8000/dal/ti-pairs/";
-          }else{
+          //if( window.testing ){
+          //  url += ":8000/dal/ti-pairs/";
+          //}else{
             url += ":"+window.location.port+"/dal/ti-pairs/";
-          }
+          //}
           Ajax({
             url   : url,
             method: "get",

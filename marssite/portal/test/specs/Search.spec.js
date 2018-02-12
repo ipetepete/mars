@@ -17,15 +17,22 @@ window._ = _;
 window.testing = true;
 
 require('../../../theme/js/main.js');
-var el = document.createElement("div");
-el.setAttribute("id", "mount");
-document.body.appendChild(el);
 
-function testSpy(greet, cb){
-  cb("hi "+greet);
+function createVM(){
+  var el = document.createElement("div");
+  el.setAttribute("id", "mount");
+  document.body.appendChild(el);
+
+
+  return new Vue({
+    template:"<div><h1>Testing...</h1><search></search></div>",
+    components: {'search':Search}
+  }).$mount("#mount");
+
 }
 
-describe('Search component should mount', ()=>{
+
+describe('Search component should mount', function(){
   before(function(){
     this.server = sinon.fakeServer.create();
     this.server.autoRespond = true;
@@ -35,15 +42,10 @@ describe('Search component should mount', ()=>{
         { "Content-Type": "application/json" },
         "[\"soar,spartan\",\"ct4m,decam\",\"ct4m,mosaic\",\"soar,goodman\"]"
       ]);
-    this.vm = new Vue({
-      template:"<div><h1>Testing...</h1><search></search></div>",
-      components: {'search':Search}
-    }).$mount("#mount");
+    this.vm = createVM();
   });
 
-
   it('Should mount without issue', function(){
-    debugger
     expect(typeof this.vm.$children[0].getTelescopes).to.equal('function');
   });
 
@@ -52,11 +54,13 @@ describe('Search component should mount', ()=>{
   });
 
   it('should have some telescopes', function(){
+    // pass true to getTelescopes to prevent it fetching from cache
+    this.vm.$children[0].getTelescopes(true);
     assert.lengthOf(this.vm.$children[0].telescopes, 4, 'Has 4 telescopes');
   });
 });
 
-describe('Object lookup should populate or fail gracefully', ()=>{
+describe('Object lookup should populate or fail gracefully', function(){
   before(function(){
     this.server = sinon.fakeServer.create();
     this.server.autoRespond = true;
@@ -65,21 +69,35 @@ describe('Object lookup should populate or fail gracefully', ()=>{
       {"Content-Type":"application/json"},
       "{\"ra\":432.1, \"dec\":234.5}"
     ]);
-    this.vm = new Vue({
-      template:"<div><h1>Testing...</h1><search></search></div>",
-      components: {'search':Search}
-   });
 
-  // test codeView, resolvingObject, datepicker, submitForm, submitQuery, clear
+    this.vm = createVM();
+  });
+
   it("Should return an ra,dec from an object", function(){
-    var spy = sinon.spy();
-    testSpy("Person", spy);
-    console.log("called function with spy");
     var event = new MouseEvent("click");
     this.vm.$children[0].objectName = "orion";
     this.vm.$children[0].resolveObject(event).then((data)=>{
       data.should.have.property('ra').to.equal(432.1);
     });
-    spy.should.have.been.calledWith("hi Person");
+  });
+});
+
+
+describe('Date range fields should react appropriately', function(){
+  before(function(){
+    this.vm = createVM();
+    // select a range then check to see if showBothObsDateFields is true...
+    var range = this.vm.$el.querySelector("[name=obs-date-interval]");
+    range.selectedIndex = 3;
+    var evt = document.createEvent("HTMLEvents");
+    evt.initEvent("change", false, true);
+    range.dispatchEvent(evt);
+  });
+
+  // check to make sure the display of both fields is working properly
+  it("should have both fields showing", function(){
+    expect(this.vm.$children[0].showBothObsDateFields).to.equal(true);
+    var visible = document.querySelector("#obs-date-max").style.display;
+    expect(visible).to.equal("none");
   });
 });
