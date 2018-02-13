@@ -36,7 +36,6 @@ def search_by_json(request):
     """
     return process_search(request)
 
-
 @csrf_exempt
 @api_view(['GET'])
 def tele_inst_pairs(request):  # # @Portal
@@ -54,6 +53,7 @@ def tele_inst_pairs(request):  # # @Portal
     return JsonResponse([(d['telescope'],d['instrument'])
                          for d in list(serialized.data)],
                          safe=False)
+
 
 @csrf_exempt
 def get_categories_for_query(request):  # @Portal
